@@ -15,6 +15,11 @@
 		76AFFEF52146866100402BA2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF02146866100402BA2 /* LICENSE */; };
 		76AFFEF62146866100402BA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF12146866100402BA2 /* README.md */; };
 		76AFFEF72146866100402BA2 /* KNOWN_LIMITATIONS.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF22146866100402BA2 /* KNOWN_LIMITATIONS.md */; };
+		76AFFF0021468A7800402BA2 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF921468A7700402BA2 /* Appfile */; };
+		76AFFF0121468A7800402BA2 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFA21468A7700402BA2 /* Fastfile */; };
+		76AFFF0221468A7800402BA2 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFB21468A7700402BA2 /* .env */; };
+		76AFFF0321468A7800402BA2 /* update_dependency_graph.rb in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */; };
+		76AFFF0421468A7800402BA2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFE21468A7700402BA2 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,11 @@
 		76AFFEF02146866100402BA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		76AFFEF12146866100402BA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		76AFFEF22146866100402BA2 /* KNOWN_LIMITATIONS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = KNOWN_LIMITATIONS.md; sourceTree = SOURCE_ROOT; };
+		76AFFEF921468A7700402BA2 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		76AFFEFA21468A7700402BA2 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76AFFEFB21468A7700402BA2 /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = update_dependency_graph.rb; sourceTree = "<group>"; };
+		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,9 @@
 				76AFFEF02146866100402BA2 /* LICENSE */,
 				76AFFEF12146866100402BA2 /* README.md */,
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
+				76AFFEFE21468A7700402BA2 /* Cartfile */,
+				76AFFEFF21468A7700402BA2 /* Documentation */,
+				76AFFEF821468A7700402BA2 /* fastlane */,
 				76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */,
 				76AFFED82146844D00402BA2 /* Info.plist */,
 			);
@@ -100,6 +113,32 @@
 			);
 			path = ExposureStreamrootIntegrationTests;
 			sourceTree = "<group>";
+		};
+		76AFFEF821468A7700402BA2 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				76AFFEF921468A7700402BA2 /* Appfile */,
+				76AFFEFA21468A7700402BA2 /* Fastfile */,
+				76AFFEFB21468A7700402BA2 /* .env */,
+				76AFFEFC21468A7700402BA2 /* actions */,
+			);
+			path = fastlane;
+			sourceTree = SOURCE_ROOT;
+		};
+		76AFFEFC21468A7700402BA2 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */,
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+		76AFFEFF21468A7700402BA2 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -192,7 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AFFF0421468A7800402BA2 /* Cartfile in Resources */,
+				76AFFF0021468A7800402BA2 /* Appfile in Resources */,
+				76AFFF0321468A7800402BA2 /* update_dependency_graph.rb in Resources */,
+				76AFFF0121468A7800402BA2 /* Fastfile in Resources */,
 				76AFFEF52146866100402BA2 /* LICENSE in Resources */,
+				76AFFF0221468A7800402BA2 /* .env in Resources */,
 				76AFFEF72146866100402BA2 /* KNOWN_LIMITATIONS.md in Resources */,
 				76AFFEF42146866100402BA2 /* UPGRADE_GUIDE.md in Resources */,
 				76AFFEF62146866100402BA2 /* README.md in Resources */,
