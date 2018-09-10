@@ -20,6 +20,12 @@
 		76AFFF0221468A7800402BA2 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFB21468A7700402BA2 /* .env */; };
 		76AFFF0321468A7800402BA2 /* update_dependency_graph.rb in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */; };
 		76AFFF0421468A7800402BA2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFE21468A7700402BA2 /* Cartfile */; };
+		76AFFF0B2146963D00402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF052146963C00402BA2 /* Exposure.framework */; };
+		76AFFF0C2146963D00402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF062146963D00402BA2 /* ExposurePlayback.framework */; };
+		76AFFF0D2146963D00402BA2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF072146963D00402BA2 /* Starscream.framework */; };
+		76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF082146963D00402BA2 /* GCDWebServers.framework */; };
+		76AFFF0F2146963D00402BA2 /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF092146963D00402BA2 /* Sentry.framework */; };
+		76AFFF102146963D00402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF0A2146963D00402BA2 /* Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		76AFFEFB21468A7700402BA2 /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = update_dependency_graph.rb; sourceTree = "<group>"; };
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		76AFFF052146963C00402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
+		76AFFF062146963D00402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		76AFFF072146963D00402BA2 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		76AFFF082146963D00402BA2 /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
+		76AFFF092146963D00402BA2 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
+		76AFFF0A2146963D00402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AFFF0C2146963D00402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */,
+				76AFFF0D2146963D00402BA2 /* Starscream.framework in Frameworks */,
+				76AFFF102146963D00402BA2 /* Player.framework in Frameworks */,
+				76AFFF0F2146963D00402BA2 /* Sentry.framework in Frameworks */,
+				76AFFF0B2146963D00402BA2 /* Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +91,12 @@
 		76AFFECA2146844C00402BA2 = {
 			isa = PBXGroup;
 			children = (
+				76AFFF052146963C00402BA2 /* Exposure.framework */,
+				76AFFF062146963D00402BA2 /* ExposurePlayback.framework */,
+				76AFFF082146963D00402BA2 /* GCDWebServers.framework */,
+				76AFFF0A2146963D00402BA2 /* Player.framework */,
+				76AFFF092146963D00402BA2 /* Sentry.framework */,
+				76AFFF072146963D00402BA2 /* Starscream.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				76AFFED52146844D00402BA2 /* Products */,
@@ -410,6 +434,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -436,6 +464,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
