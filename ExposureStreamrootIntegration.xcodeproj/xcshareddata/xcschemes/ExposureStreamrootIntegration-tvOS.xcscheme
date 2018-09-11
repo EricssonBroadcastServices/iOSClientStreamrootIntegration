@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76AFFED32146844D00402BA2"
+               BlueprintIdentifier = "76AFFF2B2147B3B100402BA2"
                BuildableName = "ExposureStreamrootIntegration.framework"
-               BlueprintName = "ExposureStreamrootIntegration"
+               BlueprintName = "ExposureStreamrootIntegration-tvOS"
                ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76AFFEDC2146844D00402BA2"
-               BuildableName = "ExposureStreamrootIntegrationTests.xctest"
-               BlueprintName = "ExposureStreamrootIntegrationTests"
+               BlueprintIdentifier = "76AFFF332147B3B100402BA2"
+               BuildableName = "ExposureStreamrootIntegration-tvOSTests.xctest"
+               BlueprintName = "ExposureStreamrootIntegration-tvOSTests"
                ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76AFFED32146844D00402BA2"
+            BlueprintIdentifier = "76AFFF2B2147B3B100402BA2"
             BuildableName = "ExposureStreamrootIntegration.framework"
-            BlueprintName = "ExposureStreamrootIntegration"
+            BlueprintName = "ExposureStreamrootIntegration-tvOS"
             ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76AFFED32146844D00402BA2"
+            BlueprintIdentifier = "76AFFF2B2147B3B100402BA2"
             BuildableName = "ExposureStreamrootIntegration.framework"
-            BlueprintName = "ExposureStreamrootIntegration"
+            BlueprintName = "ExposureStreamrootIntegration-tvOS"
             ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76AFFED32146844D00402BA2"
+            BlueprintIdentifier = "76AFFF2B2147B3B100402BA2"
             BuildableName = "ExposureStreamrootIntegration.framework"
-            BlueprintName = "ExposureStreamrootIntegration"
+            BlueprintName = "ExposureStreamrootIntegration-tvOS"
             ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
