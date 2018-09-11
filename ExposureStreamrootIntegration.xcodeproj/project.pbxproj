@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76AFFEF32146866100402BA2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEEE2146866100402BA2 /* CHANGELOG.md */; };
-		76AFFEF42146866100402BA2 /* UPGRADE_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */; };
-		76AFFEF52146866100402BA2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF02146866100402BA2 /* LICENSE */; };
-		76AFFEF62146866100402BA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF12146866100402BA2 /* README.md */; };
-		76AFFEF72146866100402BA2 /* KNOWN_LIMITATIONS.md in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF22146866100402BA2 /* KNOWN_LIMITATIONS.md */; };
-		76AFFF0021468A7800402BA2 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEF921468A7700402BA2 /* Appfile */; };
-		76AFFF0121468A7800402BA2 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFA21468A7700402BA2 /* Fastfile */; };
-		76AFFF0221468A7800402BA2 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFB21468A7700402BA2 /* .env */; };
-		76AFFF0321468A7800402BA2 /* update_dependency_graph.rb in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */; };
-		76AFFF0421468A7800402BA2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFEFE21468A7700402BA2 /* Cartfile */; };
-		76AFFF0B2146963D00402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF052146963C00402BA2 /* Exposure.framework */; };
-		76AFFF0C2146963D00402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF062146963D00402BA2 /* ExposurePlayback.framework */; };
-		76AFFF0D2146963D00402BA2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF072146963D00402BA2 /* Starscream.framework */; };
-		76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF082146963D00402BA2 /* GCDWebServers.framework */; };
-		76AFFF0F2146963D00402BA2 /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF092146963D00402BA2 /* Sentry.framework */; };
-		76AFFF102146963D00402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF0A2146963D00402BA2 /* Player.framework */; };
-		76AFFF192147B1BD00402BA2 /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */; };
+		76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
+		76AFFF4E2147B76500402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; };
+		76AFFF4F2147B76500402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; };
+		76AFFF512147B76500402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; };
+		76AFFF5C2147B78000402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; };
+		76AFFF5D2147B78000402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; };
+		76AFFF5F2147B78000402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; };
+		76AFFF612147B8A500402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; };
+		76AFFF622147B8A500402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; };
+		76AFFF642147B8A500402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; };
+		76AFFF682147B8B300402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; };
+		76AFFF692147B8B300402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; };
+		76AFFF6B2147B8B300402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; };
+		76AFFF702147BABF00402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF712147BABF00402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF732147BABF00402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
+		76AFFF812148128000402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF822148128000402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF832148128000402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
+		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
+		76AFFF872148141300402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
+		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
+		76AFFF8A214816A400402BA2 /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF89214816A400402BA2 /* StreamrootSDK.framework */; };
+		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +47,47 @@
 			remoteGlobalIDString = 76AFFED32146844D00402BA2;
 			remoteInfo = ExposureStreamrootIntegration;
 		};
+		76AFFF362147B3B100402BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFFECB2146844C00402BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFFF2B2147B3B100402BA2;
+			remoteInfo = "ExposureStreamrootIntegration-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		76AFFF6F2147BA7A00402BA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76AFFF702147BABF00402BA2 /* Exposure.framework in CopyFiles */,
+				76AFFF712147BABF00402BA2 /* ExposurePlayback.framework in CopyFiles */,
+				76AFFF732147BABF00402BA2 /* Player.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFFF802148127300402BA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76AFFF812148128000402BA2 /* Exposure.framework in CopyFiles */,
+				76AFFF822148128000402BA2 /* ExposurePlayback.framework in CopyFiles */,
+				76AFFF832148128000402BA2 /* Player.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,14 +104,19 @@
 		76AFFEFB21468A7700402BA2 /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = update_dependency_graph.rb; sourceTree = "<group>"; };
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		76AFFF052146963C00402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
-		76AFFF062146963D00402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
-		76AFFF072146963D00402BA2 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
-		76AFFF082146963D00402BA2 /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
-		76AFFF092146963D00402BA2 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
-		76AFFF0A2146963D00402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
-		76AFFF1721479A7800402BA2 /* StreamrootSDK.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StreamrootSDK.json; sourceTree = SOURCE_ROOT; };
-		76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFFF472147B76500402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/tvOS/Player.framework; sourceTree = "<group>"; };
+		76AFFF482147B76500402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/tvOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		76AFFF4A2147B76500402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/tvOS/Exposure.framework; sourceTree = "<group>"; };
+		76AFFF552147B78000402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		76AFFF562147B78000402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
+		76AFFF582147B78000402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
+		76AFFF7C2147FFFE00402BA2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76AFFF89214816A400402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Pods/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +124,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF0C2146963D00402BA2 /* ExposurePlayback.framework in Frameworks */,
-				76AFFF192147B1BD00402BA2 /* StreamrootSDK.framework in Frameworks */,
-				76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */,
-				76AFFF0D2146963D00402BA2 /* Starscream.framework in Frameworks */,
-				76AFFF102146963D00402BA2 /* Player.framework in Frameworks */,
-				76AFFF0F2146963D00402BA2 /* Sentry.framework in Frameworks */,
-				76AFFF0B2146963D00402BA2 /* Exposure.framework in Frameworks */,
+				76AFFF5C2147B78000402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF5D2147B78000402BA2 /* Exposure.framework in Frameworks */,
+				76AFFF5F2147B78000402BA2 /* Player.framework in Frameworks */,
+				76AFFF8A214816A400402BA2 /* StreamrootSDK.framework in Frameworks */,
+				03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,25 +137,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
+				76AFFF612147B8A500402BA2 /* Exposure.framework in Frameworks */,
+				76AFFF622147B8A500402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF642147B8A500402BA2 /* Player.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFFF282147B3B100402BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFFF4E2147B76500402BA2 /* Player.framework in Frameworks */,
+				76AFFF4F2147B76500402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF512147B76500402BA2 /* Exposure.framework in Frameworks */,
+				A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFFF312147B3B100402BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
+				76AFFF682147B8B300402BA2 /* Exposure.framework in Frameworks */,
+				76AFFF692147B8B300402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF6B2147B8B300402BA2 /* Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58D3D1BCC3EA062E9690825F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */,
+				2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */,
+				257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */,
+				33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76AFFECA2146844C00402BA2 = {
 			isa = PBXGroup;
 			children = (
-				76AFFF052146963C00402BA2 /* Exposure.framework */,
-				76AFFF062146963D00402BA2 /* ExposurePlayback.framework */,
-				76AFFF082146963D00402BA2 /* GCDWebServers.framework */,
-				76AFFF0A2146963D00402BA2 /* Player.framework */,
-				76AFFF092146963D00402BA2 /* Sentry.framework */,
-				76AFFF072146963D00402BA2 /* Starscream.framework */,
-				76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				76AFFED52146844D00402BA2 /* Products */,
+				76AFFF432147B76500402BA2 /* Frameworks */,
+				58D3D1BCC3EA062E9690825F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +195,8 @@
 			children = (
 				76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */,
 				76AFFEDD2146844D00402BA2 /* ExposureStreamrootIntegrationTests.xctest */,
+				76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */,
+				76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,8 +209,9 @@
 				76AFFEF02146866100402BA2 /* LICENSE */,
 				76AFFEF12146866100402BA2 /* README.md */,
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
+				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
-				76AFFF1721479A7800402BA2 /* StreamrootSDK.json */,
+				76AFFF7C2147FFFE00402BA2 /* Test.swift */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
 				76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */,
@@ -170,6 +255,22 @@
 			path = Documentation;
 			sourceTree = SOURCE_ROOT;
 		};
+		76AFFF432147B76500402BA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76AFFF89214816A400402BA2 /* StreamrootSDK.framework */,
+				76AFFF562147B78000402BA2 /* Exposure.framework */,
+				76AFFF552147B78000402BA2 /* ExposurePlayback.framework */,
+				76AFFF582147B78000402BA2 /* Player.framework */,
+				76AFFF4A2147B76500402BA2 /* Exposure.framework */,
+				76AFFF482147B76500402BA2 /* ExposurePlayback.framework */,
+				76AFFF472147B76500402BA2 /* Player.framework */,
+				7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */,
+				3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -181,13 +282,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76AFFF292147B3B100402BA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration */ = {
+		76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration" */;
+			buildConfigurationList = 76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-iOS" */;
 			buildPhases = (
+				226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */,
 				76AFFECF2146844D00402BA2 /* Sources */,
 				76AFFED02146844D00402BA2 /* Frameworks */,
 				76AFFED12146844D00402BA2 /* Headers */,
@@ -197,7 +306,7 @@
 			);
 			dependencies = (
 			);
-			name = ExposureStreamrootIntegration;
+			name = "ExposureStreamrootIntegration-iOS";
 			productName = ExposureStreamrootIntegration;
 			productReference = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */;
 			productType = "com.apple.product-type.framework";
@@ -209,6 +318,7 @@
 				76AFFED92146844D00402BA2 /* Sources */,
 				76AFFEDA2146844D00402BA2 /* Frameworks */,
 				76AFFEDB2146844D00402BA2 /* Resources */,
+				76AFFF6F2147BA7A00402BA2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -218,6 +328,44 @@
 			name = ExposureStreamrootIntegrationTests;
 			productName = ExposureStreamrootIntegrationTests;
 			productReference = 76AFFEDD2146844D00402BA2 /* ExposureStreamrootIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76AFFF2B2147B3B100402BA2 /* ExposureStreamrootIntegration-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFFF412147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOS" */;
+			buildPhases = (
+				4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */,
+				76AFFF272147B3B100402BA2 /* Sources */,
+				76AFFF282147B3B100402BA2 /* Frameworks */,
+				76AFFF292147B3B100402BA2 /* Headers */,
+				76AFFF2A2147B3B100402BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExposureStreamrootIntegration-tvOS";
+			productName = "ExposureStreamrootIntegration-tvOS";
+			productReference = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76AFFF332147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFFF422147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOSTests" */;
+			buildPhases = (
+				76AFFF302147B3B100402BA2 /* Sources */,
+				76AFFF312147B3B100402BA2 /* Frameworks */,
+				76AFFF322147B3B100402BA2 /* Resources */,
+				76AFFF802148127300402BA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AFFF372147B3B100402BA2 /* PBXTargetDependency */,
+			);
+			name = "ExposureStreamrootIntegration-tvOSTests";
+			productName = "ExposureStreamrootIntegration-tvOSTests";
+			productReference = 76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -232,8 +380,15 @@
 				TargetAttributes = {
 					76AFFED32146844D00402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					76AFFEDC2146844D00402BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					76AFFF2B2147B3B100402BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					76AFFF332147B3B100402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -250,8 +405,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration */,
+				76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */,
 				76AFFEDC2146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
+				76AFFF2B2147B3B100402BA2 /* ExposureStreamrootIntegration-tvOS */,
+				76AFFF332147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,16 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF0421468A7800402BA2 /* Cartfile in Resources */,
-				76AFFF0021468A7800402BA2 /* Appfile in Resources */,
-				76AFFF0321468A7800402BA2 /* update_dependency_graph.rb in Resources */,
-				76AFFF0121468A7800402BA2 /* Fastfile in Resources */,
-				76AFFEF52146866100402BA2 /* LICENSE in Resources */,
-				76AFFF0221468A7800402BA2 /* .env in Resources */,
-				76AFFEF72146866100402BA2 /* KNOWN_LIMITATIONS.md in Resources */,
-				76AFFEF42146866100402BA2 /* UPGRADE_GUIDE.md in Resources */,
-				76AFFEF62146866100402BA2 /* README.md in Resources */,
-				76AFFEF32146866100402BA2 /* CHANGELOG.md in Resources */,
+				76AFFF852148140C00402BA2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +429,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76AFFF2A2147B3B100402BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFFF862148140C00402BA2 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFFF322147B3B100402BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76AFFECF2146844D00402BA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +502,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76AFFF272147B3B100402BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFFF872148141300402BA2 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFFF302147B3B100402BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		76AFFEE02146844D00402BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration */;
+			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */;
 			targetProxy = 76AFFEDF2146844D00402BA2 /* PBXContainerItemProxy */;
+		};
+		76AFFF372147B3B100402BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFFF2B2147B3B100402BA2 /* ExposureStreamrootIntegration-tvOS */;
+			targetProxy = 76AFFF362147B3B100402BA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,7 +656,9 @@
 		};
 		76AFFEE92146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -443,6 +669,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Pods/StreamrootSDK/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -453,8 +680,9 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +690,9 @@
 		};
 		76AFFEEA2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -473,6 +703,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Pods/StreamrootSDK/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -483,7 +714,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,8 +724,13 @@
 		76AFFEEC2146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,8 +747,13 @@
 		76AFFEED2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +764,120 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76AFFF3D2147B3B100402BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
+				PRODUCT_NAME = ExposureStreamrootIntegration;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		76AFFF3E2147B3B100402BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
+				PRODUCT_NAME = ExposureStreamrootIntegration;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		76AFFF3F2147B3B100402BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		76AFFF402147B3B100402BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
@@ -538,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration" */ = {
+		76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76AFFEE92146844D00402BA2 /* Debug */,
@@ -552,6 +907,24 @@
 			buildConfigurations = (
 				76AFFEEC2146844D00402BA2 /* Debug */,
 				76AFFEED2146844D00402BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFFF412147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFFF3D2147B3B100402BA2 /* Debug */,
+				76AFFF3E2147B3B100402BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFFF422147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFFF3F2147B3B100402BA2 /* Debug */,
+				76AFFF402147B3B100402BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

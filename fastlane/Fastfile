@@ -140,6 +140,8 @@ platform :ios do
                  no_build: false
                  )
         update_dependency_graph()
+        
+        cocoapods()
     end
     
     # Private lanes

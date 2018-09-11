@@ -22,6 +22,7 @@
 * `tvOS` 10.2+
 * `Swift` 4.0+
 * `Xcode` 9.0+
+* `Carthage` 0.30.1+
 
 * Framework dependencies
     - [`Player`](https://github.com/EricssonBroadcastServices/iOSClientPlayer)
