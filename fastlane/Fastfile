@@ -85,17 +85,18 @@ platform :ios do
     desc "Runs all the tests"
     lane :run_unit_tests do
         
-        UI.success("== iOS Unit tests ==")
-        scan(
-             workspace: ENV["UNIT_TEST_WORKSPACE"],
-             scheme: ENV["IOS_UNIT_TEST_SCHEME"]
-             )
-             
-         UI.success("== tvOS Unit tests ==")
-         scan(
-              workspace: ENV["UNIT_TEST_WORKSPACE"],
-              scheme: ENV["TVOS_UNIT_TEST_SCHEME"]
-              )
+        UI.success("UNIT TESTS DISABLED")
+        #UI.success("== iOS Unit tests ==")
+        #scan(
+        #     workspace: ENV["UNIT_TEST_WORKSPACE"],
+        #     scheme: ENV["IOS_UNIT_TEST_SCHEME"]
+        #     )
+        #
+        # UI.success("== tvOS Unit tests ==")
+        # scan(
+        #      workspace: ENV["UNIT_TEST_WORKSPACE"],
+        #      scheme: ENV["TVOS_UNIT_TEST_SCHEME"]
+        #      )
                   
     end
     

@@ -26,6 +26,7 @@
 		76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF082146963D00402BA2 /* GCDWebServers.framework */; };
 		76AFFF0F2146963D00402BA2 /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF092146963D00402BA2 /* Sentry.framework */; };
 		76AFFF102146963D00402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF0A2146963D00402BA2 /* Player.framework */; };
+		76AFFF192147B1BD00402BA2 /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		76AFFF082146963D00402BA2 /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
 		76AFFF092146963D00402BA2 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
 		76AFFF0A2146963D00402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
+		76AFFF1721479A7800402BA2 /* StreamrootSDK.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StreamrootSDK.json; sourceTree = SOURCE_ROOT; };
+		76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AFFF0C2146963D00402BA2 /* ExposurePlayback.framework in Frameworks */,
+				76AFFF192147B1BD00402BA2 /* StreamrootSDK.framework in Frameworks */,
 				76AFFF0E2146963D00402BA2 /* GCDWebServers.framework in Frameworks */,
 				76AFFF0D2146963D00402BA2 /* Starscream.framework in Frameworks */,
 				76AFFF102146963D00402BA2 /* Player.framework in Frameworks */,
@@ -97,6 +101,7 @@
 				76AFFF0A2146963D00402BA2 /* Player.framework */,
 				76AFFF092146963D00402BA2 /* Sentry.framework */,
 				76AFFF072146963D00402BA2 /* Starscream.framework */,
+				76AFFF182147B1BD00402BA2 /* StreamrootSDK.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				76AFFED52146844D00402BA2 /* Products */,
@@ -121,6 +126,7 @@
 				76AFFEF12146866100402BA2 /* README.md */,
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
+				76AFFF1721479A7800402BA2 /* StreamrootSDK.json */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
 				76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */,
