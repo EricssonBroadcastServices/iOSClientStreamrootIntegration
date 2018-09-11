@@ -1,7 +1,3 @@
-binary "StreamrootSDK.json" "3.3.0"
 github "EricssonBroadcastServices/iOSClientExposure" "ecc5e17ae2534eca4da2c6e1652c1fadfa952d65"
 github "EricssonBroadcastServices/iOSClientExposurePlayback" "892ca2e0bab5db573f3f0f4d043eaf838142ca97"
 github "EricssonBroadcastServices/iOSClientPlayer" "a2fe774b641949dbe09ada97adf1d2ed0cb92624"
-github "daltoniam/Starscream" "3.0.5"
-github "getsentry/sentry-cocoa" "4.1.0"
-github "swisspol/GCDWebServer" "3.4.2"
