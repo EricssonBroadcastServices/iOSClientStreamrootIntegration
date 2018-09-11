@@ -1,5 +1,1 @@
 github "EricssonBroadcastServices/iOSClientExposurePlayback" "master"
-binary "StreamrootSDK.json"
-github "daltoniam/Starscream.git" "3.0.5"
-github "getsentry/sentry-cocoa.git" "4.1.0"
-github "swisspol/GCDWebServer.git" "3.4.2"

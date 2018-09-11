@@ -104,7 +104,6 @@
 		76AFFEFB21468A7700402BA2 /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		76AFFEFD21468A7700402BA2 /* update_dependency_graph.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = update_dependency_graph.rb; sourceTree = "<group>"; };
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		76AFFF1721479A7800402BA2 /* StreamrootSDK.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StreamrootSDK.json; sourceTree = SOURCE_ROOT; };
 		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF472147B76500402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/tvOS/Player.framework; sourceTree = "<group>"; };
@@ -116,9 +115,6 @@
 		76AFFF7C2147FFFE00402BA2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76AFFF89214816A400402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Pods/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
-		76AFFF8B2148172C00402BA2 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AFFF8D2148172F00402BA2 /* Sentry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sentry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AFFF8F2148173200402BA2 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,7 +211,6 @@
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
 				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
-				76AFFF1721479A7800402BA2 /* StreamrootSDK.json */,
 				76AFFF7C2147FFFE00402BA2 /* Test.swift */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
@@ -267,9 +262,6 @@
 				76AFFF562147B78000402BA2 /* Exposure.framework */,
 				76AFFF552147B78000402BA2 /* ExposurePlayback.framework */,
 				76AFFF582147B78000402BA2 /* Player.framework */,
-				76AFFF8B2148172C00402BA2 /* GCDWebServer.framework */,
-				76AFFF8D2148172F00402BA2 /* Sentry.framework */,
-				76AFFF8F2148173200402BA2 /* Starscream.framework */,
 				76AFFF4A2147B76500402BA2 /* Exposure.framework */,
 				76AFFF482147B76500402BA2 /* ExposurePlayback.framework */,
 				76AFFF472147B76500402BA2 /* Player.framework */,
