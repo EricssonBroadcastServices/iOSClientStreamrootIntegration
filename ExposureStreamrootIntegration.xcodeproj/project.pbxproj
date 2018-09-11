@@ -27,15 +27,21 @@
 		76AFFF702147BABF00402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF712147BABF00402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF732147BABF00402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
 		76AFFF812148128000402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF822148128000402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF832148128000402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
-		76AFFF872148141300402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
 		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFF8A214816A400402BA2 /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF89214816A400402BA2 /* StreamrootSDK.framework */; };
+		76B7B10E21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */; };
+		76B7B10F21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */; };
+		76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
+		76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
+		76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
+		76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
+		76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
+		76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
 		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,9 +118,12 @@
 		76AFFF552147B78000402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
 		76AFFF562147B78000402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
 		76AFFF582147B78000402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
-		76AFFF7C2147FFFE00402BA2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76AFFF89214816A400402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Pods/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetPlayable.swift; sourceTree = "<group>"; };
+		76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetEntitlementProvider.swift; sourceTree = "<group>"; };
+		76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootIntegrationError.swift; sourceTree = "<group>"; };
+		76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSource.swift; sourceTree = "<group>"; };
 		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,9 +220,12 @@
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
 				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
-				76AFFF7C2147FFFE00402BA2 /* Test.swift */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
+				76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */,
+				76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */,
+				76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */,
+				76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */,
 				76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */,
 				76AFFED82146844D00402BA2 /* Info.plist */,
 			);
@@ -387,6 +399,7 @@
 					};
 					76AFFF2B2147B3B100402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					76AFFF332147B3B100402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -490,7 +503,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */,
+				76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
+				76B7B10E21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */,
+				76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
+				76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +522,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF872148141300402BA2 /* Test.swift in Sources */,
+				76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
+				76B7B10F21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */,
+				76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
+				76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +790,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -793,6 +813,7 @@
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -803,6 +824,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

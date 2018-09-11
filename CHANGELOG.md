@@ -5,4 +5,4 @@
 ## 2.0.90
 
 #### Features
-* Support for `Peer-to-Peer` *webRTC* based streaming on the `RedBee Managed OTT` platform.
+* `EMP-11747` Support for `Peer-to-Peer` *webRTC* based streaming on the `RedBee Managed OTT` platform.
