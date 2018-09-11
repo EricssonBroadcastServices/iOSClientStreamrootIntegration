@@ -40,9 +40,9 @@ public struct StreamrootAssetPlayable: Playable {
                         return
                     }
                     
-                    let source = StreamrootAssetSource(entitlement: value, assetId: self.assetId, localManifestUrl: localManifestUrl, dnaClient: dnaClient)
-                    source.response = response
-                    callback(source, nil, response)
+//                    let source = StreamrootAssetSource(entitlement: value, assetId: self.assetId, localManifestUrl: localManifestUrl, dnaClient: dnaClient)
+//                    source.response = response
+//                    callback(source, nil, response)
                 }
                 catch {
                     callback(nil, ExposureError.generalError(error: error), response)

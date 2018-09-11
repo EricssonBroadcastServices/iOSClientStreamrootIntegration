@@ -11,18 +11,18 @@ import ExposurePlayback
 import Exposure
 import StreamrootSDK
 
-public class StreamrootAssetSource: AssetSource {
-    internal var response: HTTPURLResponse?
-    internal let localManifestUrl: URL
-    public let dnaClient: DNAClient
-    
-    public init(entitlement: PlaybackEntitlement, assetId: String, localManifestUrl: URL, dnaClient: DNAClient) {
-        self.localManifestUrl = localManifestUrl
-        self.dnaClient = dnaClient
-        super.init(entitlement: entitlement, assetId: assetId)
-    }
-    
-    public override var url: URL {
-        return localManifestUrl
-    }
-}
+//public class StreamrootAssetSource: AssetSource {
+//    internal var response: HTTPURLResponse?
+//    internal let localManifestUrl: URL
+//    public let dnaClient: DNAClient
+//    
+//    public init(entitlement: PlaybackEntitlement, assetId: String, localManifestUrl: URL, dnaClient: DNAClient) {
+//        self.localManifestUrl = localManifestUrl
+//        self.dnaClient = dnaClient
+//        super.init(entitlement: entitlement, assetId: assetId)
+//    }
+//    
+//    public override var url: URL {
+//        return localManifestUrl
+//    }
+//}

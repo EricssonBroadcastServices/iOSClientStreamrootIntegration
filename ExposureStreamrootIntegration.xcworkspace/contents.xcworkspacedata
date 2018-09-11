@@ -5,6 +5,15 @@
       location = "group:ExposureStreamrootIntegration.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Carthage/Checkouts/iOSClientExposurePlayback/ExposurePlayback.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/iOSClientPlayer/Player.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/iOSClientExposure/Exposure.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
