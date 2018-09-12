@@ -1,0 +1,9 @@
+[submodule "Carthage/Checkouts/iOSClientExposurePlayback"]
+	path = Carthage/Checkouts/iOSClientExposurePlayback
+	url = ssh://git@github.com/EricssonBroadcastServices/iOSClientExposurePlayback.git
+[submodule "Carthage/Checkouts/iOSClientPlayer"]
+	path = Carthage/Checkouts/iOSClientPlayer
+	url = ssh://git@github.com/EricssonBroadcastServices/iOSClientPlayer.git
+[submodule "Carthage/Checkouts/iOSClientExposure"]
+	path = Carthage/Checkouts/iOSClientExposure
+	url = ssh://git@github.com/EricssonBroadcastServices/iOSClientExposure.git

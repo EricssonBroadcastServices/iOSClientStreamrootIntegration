@@ -12,30 +12,37 @@
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
-		76AFFF4E2147B76500402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; };
-		76AFFF4F2147B76500402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; };
-		76AFFF512147B76500402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; };
-		76AFFF5C2147B78000402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; };
-		76AFFF5D2147B78000402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; };
-		76AFFF5F2147B78000402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; };
-		76AFFF612147B8A500402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; };
-		76AFFF622147B8A500402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; };
-		76AFFF642147B8A500402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; };
-		76AFFF682147B8B300402BA2 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; };
-		76AFFF692147B8B300402BA2 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; };
-		76AFFF6B2147B8B300402BA2 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; };
-		76AFFF702147BABF00402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF562147B78000402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF712147BABF00402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF552147B78000402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF732147BABF00402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF582147B78000402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
-		76AFFF812148128000402BA2 /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF4A2147B76500402BA2 /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF822148128000402BA2 /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF482147B76500402BA2 /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76AFFF832148128000402BA2 /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76AFFF472147B76500402BA2 /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
-		76AFFF872148141300402BA2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFF7C2147FFFE00402BA2 /* Test.swift */; };
 		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
-		76AFFF8A214816A400402BA2 /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF89214816A400402BA2 /* StreamrootSDK.framework */; };
+		76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
+		76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
+		76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
+		76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
+		76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
+		76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
+		76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B119214829DA003514F4 /* Exposure.framework */; };
+		76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11B214829DA003514F4 /* ExposurePlayback.framework */; };
+		76B7B11E214829DA003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11D214829DA003514F4 /* Player.framework */; };
+		76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11F214829EB003514F4 /* Exposure.framework */; };
+		76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B121214829EB003514F4 /* ExposurePlayback.framework */; };
+		76B7B124214829EB003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B123214829EB003514F4 /* Player.framework */; };
+		76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12521482A05003514F4 /* Exposure.framework */; };
+		76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12721482A05003514F4 /* ExposurePlayback.framework */; };
+		76B7B12A21482A05003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12921482A05003514F4 /* Player.framework */; };
+		76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12B21482A17003514F4 /* Exposure.framework */; };
+		76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12D21482A17003514F4 /* ExposurePlayback.framework */; };
+		76B7B13021482A17003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12F21482A17003514F4 /* Player.framework */; };
+		76B7B13B21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
+		76B7B13C21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
+		76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */; };
+		76B7B13F21490E17003514F4 /* StreamrootProgramSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */; };
+		76B7B141214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */; };
+		76B7B142214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */; };
+		76B7B144214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
+		76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
+		76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
+		76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
 		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,9 +70,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				76AFFF702147BABF00402BA2 /* Exposure.framework in CopyFiles */,
-				76AFFF712147BABF00402BA2 /* ExposurePlayback.framework in CopyFiles */,
-				76AFFF732147BABF00402BA2 /* Player.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +79,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				76AFFF812148128000402BA2 /* Exposure.framework in CopyFiles */,
-				76AFFF822148128000402BA2 /* ExposurePlayback.framework in CopyFiles */,
-				76AFFF832148128000402BA2 /* Player.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,15 +107,27 @@
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AFFF472147B76500402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/tvOS/Player.framework; sourceTree = "<group>"; };
-		76AFFF482147B76500402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/tvOS/ExposurePlayback.framework; sourceTree = "<group>"; };
-		76AFFF4A2147B76500402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/tvOS/Exposure.framework; sourceTree = "<group>"; };
-		76AFFF552147B78000402BA2 /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
-		76AFFF562147B78000402BA2 /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
-		76AFFF582147B78000402BA2 /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
-		76AFFF7C2147FFFE00402BA2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		76AFFF89214816A400402BA2 /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Pods/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetEntitlementProvider.swift; sourceTree = "<group>"; };
+		76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootIntegrationError.swift; sourceTree = "<group>"; };
+		76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSource.swift; sourceTree = "<group>"; };
+		76B7B119214829DA003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B11B214829DA003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B11D214829DA003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B11F214829EB003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B121214829EB003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B123214829EB003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12521482A05003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12721482A05003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12921482A05003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12B21482A17003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12D21482A17003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B12F21482A17003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelSource.swift; sourceTree = "<group>"; };
+		76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramSource.swift; sourceTree = "<group>"; };
+		76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelEntitlementProvider.swift; sourceTree = "<group>"; };
+		76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramEntitlementProvider.swift; sourceTree = "<group>"; };
+		76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayable.swift; sourceTree = "<group>"; };
 		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,10 +137,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF5C2147B78000402BA2 /* ExposurePlayback.framework in Frameworks */,
-				76AFFF5D2147B78000402BA2 /* Exposure.framework in Frameworks */,
-				76AFFF5F2147B78000402BA2 /* Player.framework in Frameworks */,
-				76AFFF8A214816A400402BA2 /* StreamrootSDK.framework in Frameworks */,
+				76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */,
+				76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */,
+				76B7B11E214829DA003514F4 /* Player.framework in Frameworks */,
 				03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,10 +148,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */,
+				76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */,
+				76B7B124214829EB003514F4 /* Player.framework in Frameworks */,
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				76AFFF612147B8A500402BA2 /* Exposure.framework in Frameworks */,
-				76AFFF622147B8A500402BA2 /* ExposurePlayback.framework in Frameworks */,
-				76AFFF642147B8A500402BA2 /* Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +159,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF4E2147B76500402BA2 /* Player.framework in Frameworks */,
-				76AFFF4F2147B76500402BA2 /* ExposurePlayback.framework in Frameworks */,
-				76AFFF512147B76500402BA2 /* Exposure.framework in Frameworks */,
+				76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */,
+				76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */,
+				76B7B12A21482A05003514F4 /* Player.framework in Frameworks */,
 				A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,10 +170,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */,
+				76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */,
+				76B7B13021482A17003514F4 /* Player.framework in Frameworks */,
 				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				76AFFF682147B8B300402BA2 /* Exposure.framework in Frameworks */,
-				76AFFF692147B8B300402BA2 /* ExposurePlayback.framework in Frameworks */,
-				76AFFF6B2147B8B300402BA2 /* Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +223,12 @@
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
 				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
-				76AFFF7C2147FFFE00402BA2 /* Test.swift */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
+				76B7B13721490D8C003514F4 /* Playable */,
+				76B7B13821490D95003514F4 /* Source */,
+				76B7B13921490D9B003514F4 /* EntitlementProvider */,
+				76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */,
 				76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */,
 				76AFFED82146844D00402BA2 /* Info.plist */,
 			);
@@ -258,17 +273,50 @@
 		76AFFF432147B76500402BA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				76AFFF89214816A400402BA2 /* StreamrootSDK.framework */,
-				76AFFF562147B78000402BA2 /* Exposure.framework */,
-				76AFFF552147B78000402BA2 /* ExposurePlayback.framework */,
-				76AFFF582147B78000402BA2 /* Player.framework */,
-				76AFFF4A2147B76500402BA2 /* Exposure.framework */,
-				76AFFF482147B76500402BA2 /* ExposurePlayback.framework */,
-				76AFFF472147B76500402BA2 /* Player.framework */,
+				76B7B12B21482A17003514F4 /* Exposure.framework */,
+				76B7B12D21482A17003514F4 /* ExposurePlayback.framework */,
+				76B7B12F21482A17003514F4 /* Player.framework */,
+				76B7B12521482A05003514F4 /* Exposure.framework */,
+				76B7B12721482A05003514F4 /* ExposurePlayback.framework */,
+				76B7B12921482A05003514F4 /* Player.framework */,
+				76B7B11F214829EB003514F4 /* Exposure.framework */,
+				76B7B121214829EB003514F4 /* ExposurePlayback.framework */,
+				76B7B123214829EB003514F4 /* Player.framework */,
+				76B7B119214829DA003514F4 /* Exposure.framework */,
+				76B7B11B214829DA003514F4 /* ExposurePlayback.framework */,
+				76B7B11D214829DA003514F4 /* Player.framework */,
 				7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */,
 				3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76B7B13721490D8C003514F4 /* Playable */ = {
+			isa = PBXGroup;
+			children = (
+				76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */,
+			);
+			path = Playable;
+			sourceTree = "<group>";
+		};
+		76B7B13821490D95003514F4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */,
+				76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */,
+				76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		76B7B13921490D9B003514F4 /* EntitlementProvider */ = {
+			isa = PBXGroup;
+			children = (
+				76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */,
+				76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */,
+				76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */,
+			);
+			path = EntitlementProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +435,7 @@
 					};
 					76AFFF2B2147B3B100402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					76AFFF332147B3B100402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -490,7 +539,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF7D2147FFFE00402BA2 /* Test.swift in Sources */,
+				76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
+				76B7B144214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
+				76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
+				76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
+				76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
+				76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
+				76B7B13B21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */,
+				76B7B141214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +562,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF872148141300402BA2 /* Test.swift in Sources */,
+				76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
+				76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
+				76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
+				76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
+				76B7B13F21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
+				76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
+				76B7B13C21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */,
+				76B7B142214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +834,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -793,6 +857,7 @@
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -803,6 +868,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
