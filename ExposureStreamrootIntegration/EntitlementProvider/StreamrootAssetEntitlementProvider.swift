@@ -9,6 +9,7 @@
 import Foundation
 import Exposure
 
+/// Provider for asset based entitlements from Exposure
 internal protocol StreamrootAssetEntitlementProvider {
     func requestEntitlement(assetId: String, using sessionToken: SessionToken, in environment: Environment, callback: @escaping (PlaybackEntitlement?, ExposureError?, HTTPURLResponse?) -> Void)
 }

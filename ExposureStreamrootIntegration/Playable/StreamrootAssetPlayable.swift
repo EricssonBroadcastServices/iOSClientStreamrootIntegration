@@ -20,7 +20,6 @@ public struct StreamrootAssetPlayable: Playable {
         self.dnaTrigger = DNAClient
             .builder()
             .dnaClientDelegate(dnaDelegate)
-            .latency(30)
     }
     
     public func prepareSource(environment: Environment, sessionToken: SessionToken, callback: @escaping (ExposureSource?, ExposureError?) -> Void) {
