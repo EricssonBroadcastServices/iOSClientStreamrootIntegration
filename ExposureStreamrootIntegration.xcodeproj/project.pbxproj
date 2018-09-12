@@ -15,8 +15,6 @@
 		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
-		76B7B10E21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */; };
-		76B7B10F21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */; };
 		76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
 		76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
 		76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
@@ -43,6 +41,8 @@
 		76B7B142214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */; };
 		76B7B144214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
 		76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
+		76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
+		76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
 		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +108,6 @@
 		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetPlayable.swift; sourceTree = "<group>"; };
 		76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootIntegrationError.swift; sourceTree = "<group>"; };
 		76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSource.swift; sourceTree = "<group>"; };
@@ -128,6 +127,7 @@
 		76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramSource.swift; sourceTree = "<group>"; };
 		76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramEntitlementProvider.swift; sourceTree = "<group>"; };
+		76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayable.swift; sourceTree = "<group>"; };
 		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -294,7 +294,7 @@
 		76B7B13721490D8C003514F4 /* Playable */ = {
 			isa = PBXGroup;
 			children = (
-				76B7B10D21482570003514F4 /* StreamrootAssetPlayable.swift */,
+				76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */,
 			);
 			path = Playable;
 			sourceTree = "<group>";
@@ -541,7 +541,7 @@
 			files = (
 				76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
 				76B7B144214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
-				76B7B10E21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */,
+				76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
 				76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
 				76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
 				76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
@@ -564,7 +564,7 @@
 			files = (
 				76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
 				76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
-				76B7B10F21482570003514F4 /* StreamrootAssetPlayable.swift in Sources */,
+				76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
 				76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
 				76B7B13F21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
 				76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
