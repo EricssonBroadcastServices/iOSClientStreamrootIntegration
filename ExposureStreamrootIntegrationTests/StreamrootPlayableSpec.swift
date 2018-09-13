@@ -90,31 +90,6 @@ class StreamrootPlayableSpec: QuickSpec, DNAClientDelegate {
                 expect(playable.channelId).to(equal(channelAssetId))
             }
             
-            it("Should prepare AssetSource with valid entitlement response") { [weak self] in
-                guard let `self` = self else { return }
-                
-                Bundle.main.setValue(["Key":"some-key"], forKey: "Streamroot")
-                let provider = MockedAssetEntitlementProvider()
-                provider.mockedRequestEntitlement = { _,_,_, callback in
-                    guard let result = PlaybackEntitlement.validJson.decode(PlaybackEntitlement.self) else {
-                        callback(nil,ExposureError.generalError(error: MockedError.generalError), nil)
-                        return
-                    }
-                    callback(result,nil, nil)
-                }
-                var playable = StreamrootPlayable(assetId: vodAssetId, dnaDelegate: self)
-                playable.entitlementProvider = provider
-                var source: ExposureSource? = nil
-                var error: ExposureError? = nil
-                playable.prepareSource(environment: environment, sessionToken: sessionToken) { src, err in
-                    source = src
-                    error = err
-                }
-
-                expect(source).toEventuallyNot(beNil())
-                expect(error).toEventually(beNil())
-            }
-            
             it("Should fail to prepare source when encountering error") {
                 let provider = MockedAssetEntitlementProvider()
                 provider.mockedRequestEntitlement = { _,_,_, callback in
