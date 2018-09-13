@@ -13,16 +13,29 @@ import StreamrootSDK
 
 /// Defines a `Playable` which will prepare a *Streamroot* compatible `MediaSource`
 public struct StreamrootPlayable: Playable {
-    /// Returns the assetId for the media
+    /// Returns the unique asset identifier for the media.
     ///
-    /// For channel assets, this will be the channelId
+    /// For VoD assets, this will be the assetId.
     ///
-    /// For program assets, this will be the programId
+    /// For channel assets, this will be the channelId.
+    ///
+    /// For program assets, this will be the programId.
     public var assetId: String {
         switch media {
         case .asset(id: let id): return id
         case .channel(id: let id): return id
         case .program(id: let id, channelId: _): return id
+        }
+    }
+    
+    /// If the playable is of type `Program` or `Channel`, this property returns the `channelId`.
+    ///
+    /// `nil` otherwise
+    public var channelId: String? {
+        switch media {
+        case .channel(id: let id): return id
+        case .program(id: _, channelId: let id): return id
+        default: return nil
         }
     }
     

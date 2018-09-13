@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
 		45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */; };
+		7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC52214A3FFE0005149E /* Nimble.framework */; };
+		7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC54214A3FFE0005149E /* Quick.framework */; };
+		7683FC57214A400F0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC56214A400F0005149E /* Nimble.framework */; };
+		7683FC59214A400F0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC58214A400F0005149E /* Quick.framework */; };
+		7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
+		7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
+		7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
+		7683FC5F214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
+		7683FC61214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
+		7683FC62214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
+		7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
+		7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,6 +106,16 @@
 		3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC50214A3EE70005149E /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
+		7683FC51214A3EEF0005149E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
+		7683FC52214A3FFE0005149E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC54214A3FFE0005149E /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC56214A400F0005149E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC58214A400F0005149E /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayableSpec.swift; sourceTree = "<group>"; };
+		7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEntitlement+Extensions.swift"; sourceTree = "<group>"; };
+		7683FC60214A45E40005149E /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSourceSpec.swift; sourceTree = "<group>"; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +181,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */,
+				7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */,
 				76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */,
 				76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B124214829EB003514F4 /* Player.framework in Frameworks */,
@@ -182,6 +206,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FC57214A400F0005149E /* Nimble.framework in Frameworks */,
+				7683FC59214A400F0005149E /* Quick.framework in Frameworks */,
 				76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */,
 				76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B13021482A17003514F4 /* Player.framework in Frameworks */,
@@ -240,6 +266,8 @@
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
 				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
+				7683FC50214A3EE70005149E /* Cartfile.private */,
+				7683FC51214A3EEF0005149E /* Cartfile.resolved */,
 				76AFFEFF21468A7700402BA2 /* Documentation */,
 				76AFFEF821468A7700402BA2 /* fastlane */,
 				76B7B13721490D8C003514F4 /* Playable */,
@@ -257,6 +285,10 @@
 			children = (
 				76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */,
 				76AFFEE42146844D00402BA2 /* Info.plist */,
+				7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */,
+				7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */,
+				7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */,
+				7683FC60214A45E40005149E /* Dictionary+Extensions.swift */,
 			);
 			path = ExposureStreamrootIntegrationTests;
 			sourceTree = "<group>";
@@ -290,6 +322,10 @@
 		76AFFF432147B76500402BA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7683FC56214A400F0005149E /* Nimble.framework */,
+				7683FC58214A400F0005149E /* Quick.framework */,
+				7683FC52214A3FFE0005149E /* Nimble.framework */,
+				7683FC54214A3FFE0005149E /* Quick.framework */,
 				7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */,
 				76B7B12B21482A17003514F4 /* Exposure.framework */,
 				76B7B12D21482A17003514F4 /* ExposurePlayback.framework */,
@@ -666,7 +702,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */,
+				7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */,
+				7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */,
 				76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */,
+				7683FC61214A45E40005149E /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +729,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */,
+				7683FC5F214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */,
+				7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */,
 				76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */,
+				7683FC62214A45E40005149E /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,7 +893,11 @@
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SKIP_INSTALL = YES;
@@ -879,7 +927,11 @@
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SKIP_INSTALL = YES;
@@ -900,7 +952,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -920,7 +976,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -946,7 +1006,11 @@
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SDKROOT = appletvos;
@@ -976,7 +1040,11 @@
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = ExposureStreamrootIntegration;
 				SDKROOT = appletvos;
@@ -999,7 +1067,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1021,7 +1093,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegrationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;

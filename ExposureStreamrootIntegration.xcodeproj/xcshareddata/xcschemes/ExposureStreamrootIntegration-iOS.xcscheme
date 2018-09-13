@@ -26,7 +26,25 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76AFFED32146844D00402BA2"
+            BuildableName = "ExposureStreamrootIntegration.framework"
+            BlueprintName = "ExposureStreamrootIntegration-iOS"
+            ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76AFFF2B2147B3B100402BA2"
+            BuildableName = "ExposureStreamrootIntegration.framework"
+            BlueprintName = "ExposureStreamrootIntegration-tvOS"
+            ReferencedContainer = "container:ExposureStreamrootIntegration.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
