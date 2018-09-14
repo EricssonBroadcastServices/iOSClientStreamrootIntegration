@@ -44,8 +44,8 @@ class PlayerViewController: UIViewController {
         player.configure(playerView: videoCanvas)
         
         player
-            .onError{ player, source, error in
-                print("\(error.code) - \(error.message)\n" + (error.info ?? ""))
+            .onError{ [weak self] player, source, error in
+                self?.showMessage(title: "\(error.code): " + error.message, message: error.info ?? "")
                 (source as? StreamrootSource)?.dnaClient.stop()
             }
             .onPlaybackCreated{ [weak self] player, source in
@@ -92,11 +92,11 @@ class PlayerViewController: UIViewController {
     }
     
     override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
-        return UIInterfaceOrientation.landscapeLeft
+        return UIInterfaceOrientation.portrait
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.landscape
+        return UIInterfaceOrientationMask.portrait
     }
 }
 

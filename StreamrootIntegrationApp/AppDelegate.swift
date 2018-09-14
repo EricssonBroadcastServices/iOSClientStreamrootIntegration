@@ -63,41 +63,75 @@ extension Date {
     }
 }
 
+extension UIViewController {
+    public func showMessage(title: String, message: String, handler: ((UIAlertAction) -> Void)? = nil) {
+        #if DEBUG
+        print(message)
+        #endif
+        let alertController = UIAlertController(title: title, message: message, preferredStyle:UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: handler))
+        self.present(alertController, animated: true, completion: nil)
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    var mainList: ListViewController?
+    var rootNav: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        if let root = window?.rootViewController as? UINavigationController, let viewController = root.viewControllers.first as? ListViewController {
-            mainList = viewController
-            viewController.navigationItem.title = "Streamroot Integration"
+        if let root = window?.rootViewController as? UINavigationController {
+            let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+            rootNav = root
             
             let conf = validateEnvironment()
             switch conf {
-            case .valid(environment: let env, sessionToken: let token):
-                viewController.onDidSelect = { [weak self] content in
-                    self?.createRequest(listContent: content, environment: env, sessionToken: token)
+            case .valid(environment: let env):
+                let login = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Login") as! LoginViewController
+                login.environment = env
+                _ = login.view
+                login.customerLabel.text = env.businessUnit
+                login.businessUnitLabel.text = env.customer
+                login.onDidAuthenticate = { [weak self, weak root] in
+                    guard let `self` = self else { return }
+                    let main = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+                    self.conf(mainView: main, environment: env, sessionToken: $0)
+                    root?.pushViewController(main, animated: true)
                 }
                 
-                viewController.content = [
-                    ListItem(title: "Channels", type: "TV_CHANNEL"),
-                    ListItem(title: "Movies", type: "MOVIE")
-                ]
+                if let token = sessionToken() {
+                    self.conf(mainView: viewController, environment: env, sessionToken: token)
+                    root.setViewControllers([login, viewController], animated: false)
+                }
+                else {
+                    root.setViewControllers([login], animated: false)
+                }
             default:
-                
                 viewController.content = [
                     ListItem(title: conf.errorMessage ?? "Unknown Error", type: "ERROR")
                 ]
+                root.setViewControllers([viewController], animated: false)
             }
-            
         }
         
         return true
+    }
+    
+    func conf(mainView viewController: ListViewController, environment: Environment, sessionToken: SessionToken) {
+        viewController.navigationItem.title = "Streamroot Integration"
+        
+        viewController.onDidSelect = { [weak self] content in
+            self?.createRequest(listContent: content, environment: environment, sessionToken: sessionToken)
+        }
+        
+        viewController.content = [
+            ListItem(title: "Channels", type: "TV_CHANNEL"),
+            ListItem(title: "Movies", type: "MOVIE")
+        ]
     }
     
     enum ConfigStatus: Error {
@@ -105,8 +139,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         case missingBaseUrl
         case missingCustomer
         case missingBusinessUnit
-        case missingSessionToken
-        case valid(environment: Environment, sessionToken: SessionToken)
+        case valid(environment: Environment)
         
         var errorMessage: String? {
             switch self {
@@ -114,10 +147,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             case .missingBaseUrl: return "BaseUrl entry not found in Info.plist"
             case .missingCustomer: return "Customer entry not found in Info.plist"
             case .missingBusinessUnit: return "BusinessUnit entry not found in Info.plist"
-            case .missingSessionToken: return "SessionToken entry not found in Info.plist"
             default: return nil
             }
         }
+    }
+    
+    func sessionToken() -> SessionToken? {
+        guard let token = (Bundle.main.object(forInfoDictionaryKey: "Exposure") as? [String: String])?["SessionToken"], token != "" else { return nil }
+        return SessionToken(value: token)
     }
     
     func validateEnvironment() -> ConfigStatus {
@@ -125,13 +162,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return .missingExposureEntry
         }
         
-        guard let baseUrl = exposure["BaseUrl"] else { return .missingBaseUrl }
-        guard let customer = exposure["Customer"] else { return .missingCustomer }
-        guard let businessUnit = exposure["BusinessUnit"] else { return .missingBusinessUnit }
-//        guard let sessionToken = exposure["SessionToken"] else { return .missingSessionToken }
+        guard let baseUrl = exposure["BaseUrl"], baseUrl != "" else { return .missingBaseUrl }
+        guard let customer = exposure["Customer"], customer != "" else { return .missingCustomer }
+        guard let businessUnit = exposure["BusinessUnit"], businessUnit != "" else { return .missingBusinessUnit }
         let env = Environment(baseUrl: baseUrl, customer: customer, businessUnit: businessUnit)
-        let token = SessionToken(value: "sessionToken")
-        return .valid(environment: env, sessionToken: token)
+        return .valid(environment: env)
     }
     
     func createRequest(listContent: ListContent, environment: Environment, sessionToken: SessionToken) {
@@ -157,7 +192,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         default:
             return
         }
-        mainList?.navigationController?.pushViewController(viewController, animated: true)
+        rootNav?.pushViewController(viewController, animated: true)
     }
     
     func handleListRequest(apiRequest: ExposureApi<AssetList>, presenter: ListViewController) {
@@ -214,17 +249,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
         let playable = StreamrootPlayable(programId: program.programId, channelId: program.channelId, dnaDelegate: playerViewController)
+        playerViewController.playable = playable
         presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
     
     func play(channel: Asset, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        print(#function)
+        let playerViewController = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
+        playerViewController.navigationItem.title = channel.title
+        playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
+        let playable = StreamrootPlayable(channelId: channel.assetId, dnaDelegate: playerViewController)
+        playerViewController.playable = playable
+        presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
     
     func play(asset: Asset, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        print(#function)
+        let playerViewController = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
+        playerViewController.navigationItem.title = asset.title
+        playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
+        let playable = StreamrootPlayable(assetId: asset.assetId, dnaDelegate: playerViewController)
+        playerViewController.playable = playable
+        presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
