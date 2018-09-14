@@ -23,6 +23,8 @@ platform :ios do
     desc "Bumps build number and runs unit tests on each push to development branch"
     desc "If successful, pushes the bumped version to git"
     lane :development do
+        UI.message(ENV['SLACK_URL'])
+        UI.message(ENV["SLACK_URL"])
         UI.message(ENV['EXPOSURE_BASE_URL'])
         UI.message(ENV['EXPOSURE_CUSTOMER'])
         UI.message(ENV['EXPOSURE_BUSINESS_UNIT'])
