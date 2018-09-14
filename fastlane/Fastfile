@@ -23,10 +23,10 @@ platform :ios do
     desc "Bumps build number and runs unit tests on each push to development branch"
     desc "If successful, pushes the bumped version to git"
     lane :development do
-        UI.message(ENV["EXPOSURE_BASE_URL"])
-        UI.message(ENV["EXPOSURE_CUSTOMER"])
-        UI.message(ENV["EXPOSURE_BUSINESS_UNIT"])
-        UI.message(ENV["STREAMROOT_KEY"])
+        UI.message(ENV['EXPOSURE_BASE_URL'])
+        UI.message(ENV['EXPOSURE_CUSTOMER'])
+        UI.message(ENV['EXPOSURE_BUSINESS_UNIT'])
+        UI.message(ENV['STREAMROOT_KEY'])
         
         ensure_git_branch(branch: ENV["DEVELOPMENT_BRANCH"])
         ensure_git_status_clean
