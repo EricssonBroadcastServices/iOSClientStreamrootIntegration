@@ -14,7 +14,7 @@ import StreamrootSDK
 /// Specialized `MediaSource` used for playback of a specific program on a channel using peer-to-peer through `Streamroot`.
 ///
 /// Inherits start time `PlayFrom` behavior from `ProgramSource`
-public class StreamrootProgramSource: ProgramSource {
+public class StreamrootProgramSource: ProgramSource, StreamrootSource {
     internal let localManifestUrl: URL
     
     /// Client driving peer-to-peer traffic

@@ -142,6 +142,32 @@ platform :ios do
         cocoapods()
     end
     
+    lane :build_and_sign do
+        cert
+        sigh
+             
+        gym(
+            export_method: "app-store",
+            workspace: ENV["CLIENT_WORKSPACE"],
+            scheme: ENV["IOS_TESTFLIGHT_SCHEME"]
+            )
+    end
+    
+    lane :testflight_beta do
+        changelog = changelog_from_git_commits(
+                                               commits_count: 10,
+                                               pretty: '• %s',
+                                               merge_commit_filtering: 'exclude_merges'
+                                               )
+                                               
+        pilot(
+              changelog: strip_emoji(changelog),
+              skip_waiting_for_build_processing: true
+              )
+             
+        notify_slack_new_testflight
+    end
+    
     # Private lanes
     
     private_lane :bump_build_number do
@@ -180,6 +206,28 @@ platform :ios do
               )
     end
     
+    private_lane :notify_slack_new_testflight do
+        current_build_number = get_build_number
+        current_time = Time.now.to_f
+        
+        slack(
+              use_webhook_configured_username_and_icon: true,
+              default_payloads: [],
+              attachment_properties: {
+              pretext: "Streamroot Integration App Build #{current_build_number} in flight!",
+              color: "good",
+              text: "Available through TestFlight once processed by iTunesConnect",
+              footer: ENV["DEV_TEAM_NAME"],
+              ts: current_time,
+              }
+              )
+    end
+    
+    def strip_emoji( str )
+        str = str.force_encoding('utf-8').encode
+        clean_text = str.each_char.select { |char| char.bytesize < 4 }.join.squeeze(' ')
+    end
+
     after_all do |lane|
         # This block is called, only if the executed lane was successful
         

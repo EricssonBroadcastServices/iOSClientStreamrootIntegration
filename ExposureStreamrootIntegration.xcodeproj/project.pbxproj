@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
 		45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */; };
+		6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */; };
 		7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC52214A3FFE0005149E /* Nimble.framework */; };
 		7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC54214A3FFE0005149E /* Quick.framework */; };
 		7683FC57214A400F0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC56214A400F0005149E /* Nimble.framework */; };
@@ -21,6 +22,28 @@
 		7683FC62214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
 		7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
 		7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
+		7683FC83214AA8990005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC82214AA8990005149E /* AppDelegate.swift */; };
+		7683FC88214AA8990005149E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC86214AA8990005149E /* Main.storyboard */; };
+		7683FC8A214AA89B0005149E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC89214AA89B0005149E /* Assets.xcassets */; };
+		7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */; };
+		7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
+		7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; };
+		7683FC98214AA9D90005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FC9A214AA9D90005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; };
+		7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; };
+		7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FCA2214AAABF0005149E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA0214AAABF0005149E /* ListViewController.swift */; };
+		7683FCA6214AD5120005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA4214AD5120005149E /* PlayerViewController.swift */; };
+		7683FCA7214AD5120005149E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCA5214AD5120005149E /* PlayerViewController.xib */; };
+		7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
+		7683FCAB214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
+		7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAC214BB83A0005149E /* LoginViewController.swift */; };
+		7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAE214BEE350005149E /* Asset+Extensions.swift */; };
+		7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB0214BEE4D0005149E /* Program+Extensions.swift */; };
+		7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB2214BEE600005149E /* Date+Extensions.swift */; };
+		7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +85,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7683FC94214AA9D90005149E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFFECB2146844C00402BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFFED32146844D00402BA2;
+			remoteInfo = "ExposureStreamrootIntegration-iOS";
+		};
 		76AFFEDF2146844D00402BA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 76AFFECB2146844C00402BA2 /* Project object */;
@@ -79,6 +109,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7683FC9F214AA9D90005149E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */,
+				7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */,
+				7683FC98214AA9D90005149E /* ExposurePlayback.framework in Embed Frameworks */,
+				7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76AFFF6F2147BA7A00402BA2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,6 +160,24 @@
 		7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEntitlement+Extensions.swift"; sourceTree = "<group>"; };
 		7683FC60214A45E40005149E /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSourceSpec.swift; sourceTree = "<group>"; };
+		7683FC80214AA8990005149E /* StreamrootIntegrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamrootIntegrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC82214AA8990005149E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7683FC87214AA8990005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7683FC89214AA89B0005149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7683FC8C214AA89B0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7683FC8E214AA89B0005149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7683FC96214AA9D90005149E /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC99214AA9D90005149E /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FC9C214AA9D90005149E /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FCA0214AAABF0005149E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7683FCA4214AD5120005149E /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		7683FCA5214AD5120005149E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		7683FCA8214AD7AA0005149E /* StreamrootSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootSource.swift; sourceTree = "<group>"; };
+		7683FCAC214BB83A0005149E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7683FCAE214BEE350005149E /* Asset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB0214BEE4D0005149E /* Program+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Program+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB2214BEE600005149E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,11 +222,26 @@
 		AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
 		E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7683FC7D214AA8990005149E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */,
+				7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */,
+				7683FC9A214AA9D90005149E /* Player.framework in Frameworks */,
+				7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
+				6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76AFFED02146844D00402BA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,15 +307,65 @@
 				E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */,
 				AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */,
 				FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */,
+				D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */,
+				D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7683FC81214AA8990005149E /* StreamrootIntegrationApp */ = {
+			isa = PBXGroup;
+			children = (
+				7683FC82214AA8990005149E /* AppDelegate.swift */,
+				7683FCB7214BEE970005149E /* ViewControllers */,
+				7683FCB6214BEE8A0005149E /* Extensions */,
+				7683FCB8214BEEED0005149E /* UI */,
+				7683FC89214AA89B0005149E /* Assets.xcassets */,
+				7683FC8E214AA89B0005149E /* Info.plist */,
+			);
+			path = StreamrootIntegrationApp;
+			sourceTree = "<group>";
+		};
+		7683FCB6214BEE8A0005149E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCAE214BEE350005149E /* Asset+Extensions.swift */,
+				7683FCB0214BEE4D0005149E /* Program+Extensions.swift */,
+				7683FCB2214BEE600005149E /* Date+Extensions.swift */,
+				7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7683FCB7214BEE970005149E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCA0214AAABF0005149E /* ListViewController.swift */,
+				7683FCA4214AD5120005149E /* PlayerViewController.swift */,
+				7683FCAC214BB83A0005149E /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7683FCB8214BEEED0005149E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCA5214AD5120005149E /* PlayerViewController.xib */,
+				7683FC86214AA8990005149E /* Main.storyboard */,
+				7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		76AFFECA2146844C00402BA2 = {
 			isa = PBXGroup;
 			children = (
+				7683FC9C214AA9D90005149E /* Exposure.framework */,
+				7683FC99214AA9D90005149E /* Player.framework */,
+				7683FC96214AA9D90005149E /* ExposurePlayback.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
+				7683FC81214AA8990005149E /* StreamrootIntegrationApp */,
 				76AFFED52146844D00402BA2 /* Products */,
 				76AFFF432147B76500402BA2 /* Frameworks */,
 				58D3D1BCC3EA062E9690825F /* Pods */,
@@ -252,6 +379,7 @@
 				76AFFEDD2146844D00402BA2 /* ExposureStreamrootIntegrationTests.xctest */,
 				76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */,
 				76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */,
+				7683FC80214AA8990005149E /* StreamrootIntegrationApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -343,6 +471,7 @@
 				3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */,
 				474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */,
 				926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */,
+				ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -358,6 +487,7 @@
 		76B7B13821490D95003514F4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				7683FCA8214AD7AA0005149E /* StreamrootSource.swift */,
 				76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */,
 				76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */,
 				76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */,
@@ -396,6 +526,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		7683FC7F214AA8990005149E /* StreamrootIntegrationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7683FC8F214AA89B0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationApp" */;
+			buildPhases = (
+				77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */,
+				7683FC7C214AA8990005149E /* Sources */,
+				7683FC7D214AA8990005149E /* Frameworks */,
+				7683FC7E214AA8990005149E /* Resources */,
+				42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */,
+				7683FC9F214AA9D90005149E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7683FC95214AA9D90005149E /* PBXTargetDependency */,
+			);
+			name = StreamrootIntegrationApp;
+			productName = StreamrootIntegrationApp;
+			productReference = 7683FC80214AA8990005149E /* StreamrootIntegrationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-iOS" */;
@@ -486,6 +637,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = emp;
 				TargetAttributes = {
+					7683FC7F214AA8990005149E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					76AFFED32146844D00402BA2 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
@@ -508,6 +662,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 76AFFECA2146844C00402BA2;
 			productRefGroup = 76AFFED52146844D00402BA2 /* Products */;
@@ -518,11 +673,23 @@
 				76AFFEDC2146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				76AFFF2B2147B3B100402BA2 /* ExposureStreamrootIntegration-tvOS */,
 				76AFFF332147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests */,
+				7683FC7F214AA8990005149E /* StreamrootIntegrationApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7683FC7E214AA8990005149E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */,
+				7683FCA7214AD5120005149E /* PlayerViewController.xib in Resources */,
+				7683FC8A214AA89B0005149E /* Assets.xcassets in Resources */,
+				7683FC88214AA8990005149E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76AFFED22146844D00402BA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -662,6 +829,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry-iOS/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream-iOS/Starscream.framework",
+				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework",
+				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -680,9 +873,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7683FC7C214AA8990005149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */,
+				7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */,
+				7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */,
+				7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */,
+				7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */,
+				7683FC83214AA8990005149E /* AppDelegate.swift in Sources */,
+				7683FCA2214AAABF0005149E /* ListViewController.swift in Sources */,
+				7683FCA6214AD5120005149E /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76AFFECF2146844D00402BA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -690,6 +916,7 @@
 				76B7B114214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
 				76B7B144214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
 				76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
+				7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */,
 				76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
 				76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
 				76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
@@ -717,6 +944,7 @@
 				76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */,
 				76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */,
 				76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */,
+				7683FCAB214AD8120005149E /* StreamrootSource.swift in Sources */,
 				76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */,
 				76B7B13F21490E17003514F4 /* StreamrootProgramSource.swift in Sources */,
 				76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */,
@@ -740,6 +968,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7683FC95214AA9D90005149E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */;
+			targetProxy = 7683FC94214AA9D90005149E /* PBXContainerItemProxy */;
+		};
 		76AFFEE02146844D00402BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */;
@@ -752,7 +985,68 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		7683FC86214AA8990005149E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7683FC87214AA8990005149E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7683FC8C214AA89B0005149E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		7683FC90214AA89B0005149E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.StreamrootIntegrationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7683FC91214AA89B0005149E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emp.StreamrootIntegrationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		76AFFEE62146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1110,6 +1404,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7683FC8F214AA89B0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7683FC90214AA89B0005149E /* Debug */,
+				7683FC91214AA89B0005149E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		76AFFECE2146844C00402BA2 /* Build configuration list for PBXProject "ExposureStreamrootIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

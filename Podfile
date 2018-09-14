@@ -38,3 +38,11 @@ target 'ExposureStreamrootIntegration-tvOSTests' do
     streamrootPod
     
 end
+
+target 'StreamrootIntegrationApp' do
+    platform :ios, '9.3'
+    use_frameworks!
+    
+    streamrootPod
+    
+end
