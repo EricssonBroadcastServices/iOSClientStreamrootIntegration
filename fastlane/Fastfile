@@ -142,10 +142,18 @@ platform :ios do
         cocoapods()
     end
     
+    
     lane :build_and_sign do
         cert
-        sigh
-             
+        sigh(
+             app_identifier: "com.emp.StreamrootIntegrationApp"
+            )
+        
+        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
+        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
+        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
+        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
+        
         gym(
             export_method: "app-store",
             workspace: ENV["CLIENT_WORKSPACE"],
