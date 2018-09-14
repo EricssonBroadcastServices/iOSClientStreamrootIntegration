@@ -54,7 +54,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Zah-1S-N7H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Blb-mV-zoX"/>
                             <constraint firstItem="Zah-1S-N7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EHv-WD-RMz"/>

@@ -40,6 +40,10 @@
 		7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
 		7683FCAB214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
 		7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAC214BB83A0005149E /* LoginViewController.swift */; };
+		7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAE214BEE350005149E /* Asset+Extensions.swift */; };
+		7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB0214BEE4D0005149E /* Program+Extensions.swift */; };
+		7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB2214BEE600005149E /* Date+Extensions.swift */; };
+		7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -170,6 +174,10 @@
 		7683FCA5214AD5120005149E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		7683FCA8214AD7AA0005149E /* StreamrootSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootSource.swift; sourceTree = "<group>"; };
 		7683FCAC214BB83A0005149E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7683FCAE214BEE350005149E /* Asset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB0214BEE4D0005149E /* Program+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Program+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB2214BEE600005149E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -309,16 +317,44 @@
 			isa = PBXGroup;
 			children = (
 				7683FC82214AA8990005149E /* AppDelegate.swift */,
-				7683FCA0214AAABF0005149E /* ListViewController.swift */,
-				7683FCA4214AD5120005149E /* PlayerViewController.swift */,
-				7683FCAC214BB83A0005149E /* LoginViewController.swift */,
-				7683FCA5214AD5120005149E /* PlayerViewController.xib */,
-				7683FC86214AA8990005149E /* Main.storyboard */,
+				7683FCB7214BEE970005149E /* ViewControllers */,
+				7683FCB6214BEE8A0005149E /* Extensions */,
+				7683FCB8214BEEED0005149E /* UI */,
 				7683FC89214AA89B0005149E /* Assets.xcassets */,
-				7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */,
 				7683FC8E214AA89B0005149E /* Info.plist */,
 			);
 			path = StreamrootIntegrationApp;
+			sourceTree = "<group>";
+		};
+		7683FCB6214BEE8A0005149E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCAE214BEE350005149E /* Asset+Extensions.swift */,
+				7683FCB0214BEE4D0005149E /* Program+Extensions.swift */,
+				7683FCB2214BEE600005149E /* Date+Extensions.swift */,
+				7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7683FCB7214BEE970005149E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCA0214AAABF0005149E /* ListViewController.swift */,
+				7683FCA4214AD5120005149E /* PlayerViewController.swift */,
+				7683FCAC214BB83A0005149E /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7683FCB8214BEEED0005149E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCA5214AD5120005149E /* PlayerViewController.xib */,
+				7683FC86214AA8990005149E /* Main.storyboard */,
+				7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		76AFFECA2146844C00402BA2 = {
@@ -862,7 +898,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */,
 				7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */,
+				7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */,
+				7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */,
+				7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */,
 				7683FC83214AA8990005149E /* AppDelegate.swift in Sources */,
 				7683FCA2214AAABF0005149E /* ListViewController.swift in Sources */,
 				7683FCA6214AD5120005149E /* PlayerViewController.swift in Sources */,
@@ -974,6 +1014,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -994,6 +1035,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

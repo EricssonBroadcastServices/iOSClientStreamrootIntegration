@@ -12,68 +12,6 @@ import Player
 import ExposurePlayback
 import ExposureStreamrootIntegration
 
-extension Asset: ListContent {
-    var type: String {
-        return self.type
-    }
-    
-    var title: String {
-        let local = localized?.filter{ $0.locale == "en" }.first
-        if let result = local?.title {
-            return result
-        }
-        return originalTitle ?? assetId
-    }
-    
-    var desc: String? {
-        return nil
-    }
-}
-extension Program: ListContent {
-    var type: String {
-        return self.type
-    }
-    
-    var title: String {
-        let local = asset?.localized?.filter{ $0.locale == "en" }.first
-        if let result = local?.title { return result }
-        if let result = asset?.localized?.first?.title { return result }
-        return assetId
-    }
-    
-    var desc: String? {
-        return startDate?.hoursAndMinutes()
-    }
-}
-
-extension Date {
-    public func subtract(days: UInt) -> Date? {
-        var components = DateComponents()
-        components.setValue(-Int(days), for: Calendar.Component.day)
-        
-        return Calendar.current.date(byAdding: components, to: self)
-    }
-    
-    public func hoursAndMinutes() -> String {
-        let timeFormatter = DateFormatter()
-        timeFormatter.dateFormat = "HH:mm"
-        timeFormatter.locale = Locale(identifier: "en_GB")
-        
-        return timeFormatter.string(from: self)
-    }
-}
-
-extension UIViewController {
-    public func showMessage(title: String, message: String, handler: ((UIAlertAction) -> Void)? = nil) {
-        #if DEBUG
-        print(message)
-        #endif
-        let alertController = UIAlertController(title: title, message: message, preferredStyle:UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: handler))
-        self.present(alertController, animated: true, completion: nil)
-    }
-}
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -82,8 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var rootNav: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
         if let root = window?.rootViewController as? UINavigationController {
             let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
             rootNav = root
