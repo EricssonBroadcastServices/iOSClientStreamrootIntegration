@@ -14,7 +14,7 @@ import StreamrootSDK
 /// Specialized `MediaSource` used for playback of *Vod* assets using peer-to-peer through `Streamroot`.
 ///
 /// Inherits start time `PlayFrom` behavior from `AssetSource`
-public class StreamrootAssetSource: AssetSource {
+public class StreamrootAssetSource: AssetSource, StreamrootSource {
     internal let localManifestUrl: URL
     
     /// Client driving peer-to-peer traffic
