@@ -24,7 +24,6 @@ platform :ios do
     desc "If successful, pushes the bumped version to git"
     lane :development do
         UI.message(ENV['SLACK_URL'])
-        UI.message(ENV["SLACK_URL"])
         UI.message(ENV['EXPOSURE_BASE_URL'])
         UI.message(ENV['EXPOSURE_CUSTOMER'])
         UI.message(ENV['EXPOSURE_BUSINESS_UNIT'])
