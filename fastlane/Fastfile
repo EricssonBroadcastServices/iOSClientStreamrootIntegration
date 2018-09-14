@@ -132,10 +132,10 @@ platform :ios do
         carthage(
                  command: "update",
                  platform: "iOS,tvOS",
-                 use_submodules: false,
+                 use_submodules: true,
                  use_ssh: true,
                  use_binaries: false,
-                 no_build: false
+                 no_build: true
                  )
         update_dependency_graph()
         
