@@ -175,6 +175,7 @@ platform :ios do
                                                )
                                                
         pilot(
+              app_identifier: ENV["APP_IDENTIFIER"],
               changelog: strip_emoji(changelog),
               skip_waiting_for_build_processing: true
               )

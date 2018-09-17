@@ -1,4 +1,4 @@
-app_identifier "com.emp.ExposureStreamrootIntegration" # The bundle identifier of your app
+app_identifier "com.emp.ExposureStreamrootIntegration" # Framework target
 apple_id "emp.dev@icloud.com" # Your Apple email address
 
 team_id "JCUPRVKEC5" # Developer Portal Team ID
