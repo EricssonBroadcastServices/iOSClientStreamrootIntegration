@@ -109,7 +109,7 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(assetId: assetId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(assetId).start(value.mediaLocator)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -134,7 +134,7 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(channelId).start(value.mediaLocator)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -159,7 +159,7 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(programId: programId, channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(programId).start(value.mediaLocator)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)

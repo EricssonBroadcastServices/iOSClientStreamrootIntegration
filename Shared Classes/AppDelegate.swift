@@ -19,22 +19,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var rootNav: UINavigationController?
 
+    static var mainStoryboard: String {
+        #if os(iOS)
+        return "Main"
+        #else
+        return "Main-tvOS"
+        #endif
+    }
+    
+    static var playerViewController: String {
+        #if os(iOS)
+        return "PlayerViewController"
+        #else
+        return "PlayerViewController-tvOS"
+        #endif
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         if let root = window?.rootViewController as? UINavigationController {
-            let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+            let viewController = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
             rootNav = root
             
             let conf = validateEnvironment()
             switch conf {
             case .valid(environment: let env):
-                let login = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Login") as! LoginViewController
+                let login = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "Login") as! LoginViewController
                 login.environment = env
                 _ = login.view
                 login.customerLabel.text = env.businessUnit
                 login.businessUnitLabel.text = env.customer
                 login.onDidAuthenticate = { [weak self, weak root] in
                     guard let `self` = self else { return }
-                    let main = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+                    let main = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
                     self.conf(mainView: main, environment: env, sessionToken: $0)
                     root?.pushViewController(main, animated: true)
                 }
@@ -106,7 +122,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func createRequest(listContent: ListContent, environment: Environment, sessionToken: SessionToken) {
-        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+        let viewController = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
         let query = "&pageSize=50&onlyPublished=true"
         switch listContent.type {
         case "TV_CHANNEL":
@@ -148,7 +164,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func createEpgRequest(channel: Asset, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        let epgViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
+        let epgViewController = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
         epgViewController.navigationItem.title = channel.title
         
         epgViewController.onDidSelect = { [weak self] in
@@ -180,7 +196,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func play(program: Program, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        let playerViewController = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
+        let playerViewController = PlayerViewController(nibName: AppDelegate.playerViewController, bundle: nil)
         playerViewController.navigationItem.title = program.title
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
@@ -190,7 +206,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func play(channel: Asset, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        let playerViewController = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
+        let playerViewController = PlayerViewController(nibName: AppDelegate.playerViewController, bundle: nil)
         playerViewController.navigationItem.title = channel.title
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
@@ -200,7 +216,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func play(asset: Asset, presenter: ListViewController, environment: Environment, sessionToken: SessionToken) {
-        let playerViewController = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
+        let playerViewController = PlayerViewController(nibName: AppDelegate.playerViewController, bundle: nil)
         playerViewController.navigationItem.title = asset.title
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         

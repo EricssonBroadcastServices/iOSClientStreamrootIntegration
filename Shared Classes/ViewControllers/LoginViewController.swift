@@ -26,7 +26,6 @@ class LoginViewController: UIViewController {
             showMessage(title: "Username missing", message: "Please enter a username")
             return
         }
-        
         guard let password = passwordTextField.text, password != "" else {
             showMessage(title: "Password missing", message: "Please enter a password")
             return

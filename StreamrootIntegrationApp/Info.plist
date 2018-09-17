@@ -20,28 +20,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>7</string>
-	<key>Exposure</key>
-	<dict>
-		<key>BaseUrl</key>
-		<string></string>
-		<key>BusinessUnit</key>
-		<string></string>
-		<key>Customer</key>
-		<string></string>
-		<key>SessionToken</key>
-		<string></string>
-	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
-	</dict>
-	<key>Streamroot</key>
-	<dict>
-		<key>Key</key>
-		<string></string>
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -64,5 +48,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>Exposure</key>
+	<dict>
+		<key>BaseUrl</key>
+		<string></string>
+		<key>BusinessUnit</key>
+		<string></string>
+		<key>Customer</key>
+		<string></string>
+		<key>SessionToken</key>
+		<string></string>
+	</dict>
+	<key>Streamroot</key>
+	<dict>
+		<key>Key</key>
+		<string></string>
+	</dict>
 </dict>
 </plist>

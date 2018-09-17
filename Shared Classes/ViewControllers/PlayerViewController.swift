@@ -84,6 +84,7 @@ class PlayerViewController: UIViewController {
         }
     }
     
+    #if os(iOS)
     // MARK: Device Orientation
     override var shouldAutorotate: Bool {
         get {
@@ -98,6 +99,7 @@ class PlayerViewController: UIViewController {
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.portrait
     }
+    #endif
 }
 
 extension PlayerViewController: DNAClientDelegate {

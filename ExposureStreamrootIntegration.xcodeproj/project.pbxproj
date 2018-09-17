@@ -22,7 +22,6 @@
 		7683FC62214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
 		7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
 		7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
-		7683FC83214AA8990005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC82214AA8990005149E /* AppDelegate.swift */; };
 		7683FC88214AA8990005149E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC86214AA8990005149E /* Main.storyboard */; };
 		7683FC8A214AA89B0005149E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC89214AA89B0005149E /* Assets.xcassets */; };
 		7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */; };
@@ -34,20 +33,37 @@
 		7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; };
 		7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCA2214AAABF0005149E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA0214AAABF0005149E /* ListViewController.swift */; };
-		7683FCA6214AD5120005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA4214AD5120005149E /* PlayerViewController.swift */; };
 		7683FCA7214AD5120005149E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCA5214AD5120005149E /* PlayerViewController.xib */; };
 		7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
 		7683FCAB214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
-		7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAC214BB83A0005149E /* LoginViewController.swift */; };
-		7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCAE214BEE350005149E /* Asset+Extensions.swift */; };
-		7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB0214BEE4D0005149E /* Program+Extensions.swift */; };
-		7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB2214BEE600005149E /* Date+Extensions.swift */; };
-		7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */; };
-		7683FCC0214F9CBA0005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCBF214F9CBA0005149E /* AppDelegate.swift */; };
-		7683FCC2214F9CBA0005149E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCC1214F9CBA0005149E /* ViewController.swift */; };
-		7683FCC5214F9CBA0005149E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCC3214F9CBA0005149E /* Main.storyboard */; };
+		7683FCC5214F9CBA0005149E /* Main-tvOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCC3214F9CBA0005149E /* Main-tvOS.storyboard */; };
 		7683FCC7214F9CBB0005149E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCC6214F9CBB0005149E /* Assets.xcassets */; };
+		7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
+		7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; };
+		7683FCD2214F9E880005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FCD4214F9E880005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; };
+		7683FCD5214F9E880005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; };
+		7683FCD8214F9E880005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7683FCE4214FA48C0005149E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8E214AA89B0005149E /* Info.plist */; };
+		7683FCE8214FBC330005149E /* PlayerViewController-tvOS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */; };
+		7683FCF3214FBC600005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */; };
+		7683FCF4214FBC600005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */; };
+		7683FCF5214FBC600005149E /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEC214FBC600005149E /* Asset+Extensions.swift */; };
+		7683FCF6214FBC600005149E /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEC214FBC600005149E /* Asset+Extensions.swift */; };
+		7683FCF7214FBC600005149E /* Program+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCED214FBC600005149E /* Program+Extensions.swift */; };
+		7683FCF8214FBC600005149E /* Program+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCED214FBC600005149E /* Program+Extensions.swift */; };
+		7683FCF9214FBC600005149E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEE214FBC600005149E /* Date+Extensions.swift */; };
+		7683FCFA214FBC600005149E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEE214FBC600005149E /* Date+Extensions.swift */; };
+		7683FCFB214FBC600005149E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF0214FBC600005149E /* ListViewController.swift */; };
+		7683FCFC214FBC600005149E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF0214FBC600005149E /* ListViewController.swift */; };
+		7683FCFD214FBC600005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF1214FBC600005149E /* PlayerViewController.swift */; };
+		7683FCFE214FBC600005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF1214FBC600005149E /* PlayerViewController.swift */; };
+		7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
+		7683FD00214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
+		7683FD02214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
+		7683FD03214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,6 +101,7 @@
 		76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
 		7E515780BECB6EBBD18B2DFB /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
 		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
+		C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */; };
 		F73FE4E7AF7FBA573F16299F /* Pods_ExposureStreamrootIntegration_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +112,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 76AFFED32146844D00402BA2;
 			remoteInfo = "ExposureStreamrootIntegration-iOS";
+		};
+		7683FCCE214F9E880005149E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFFECB2146844C00402BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFFF2B2147B3B100402BA2;
+			remoteInfo = "ExposureStreamrootIntegration-tvOS";
 		};
 		76AFFEDF2146844D00402BA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -127,6 +151,20 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7683FCD9214F9E880005149E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7683FCD5214F9E880005149E /* Player.framework in Embed Frameworks */,
+				7683FCD8214F9E880005149E /* Exposure.framework in Embed Frameworks */,
+				7683FCD2214F9E880005149E /* ExposurePlayback.framework in Embed Frameworks */,
+				7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76AFFF6F2147BA7A00402BA2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +191,8 @@
 		33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationTvOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC50214A3EE70005149E /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
 		7683FC51214A3EEF0005149E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
@@ -165,7 +205,6 @@
 		7683FC60214A45E40005149E /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSourceSpec.swift; sourceTree = "<group>"; };
 		7683FC80214AA8990005149E /* StreamrootIntegrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamrootIntegrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC82214AA8990005149E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7683FC87214AA8990005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7683FC89214AA89B0005149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7683FC8C214AA89B0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -173,21 +212,24 @@
 		7683FC96214AA9D90005149E /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC99214AA9D90005149E /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC9C214AA9D90005149E /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FCA0214AAABF0005149E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		7683FCA4214AD5120005149E /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		7683FCA5214AD5120005149E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		7683FCA8214AD7AA0005149E /* StreamrootSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootSource.swift; sourceTree = "<group>"; };
-		7683FCAC214BB83A0005149E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		7683FCAE214BEE350005149E /* Asset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
-		7683FCB0214BEE4D0005149E /* Program+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Program+Extensions.swift"; sourceTree = "<group>"; };
-		7683FCB2214BEE600005149E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7683FCBD214F9CBA0005149E /* StreamrootIntegrationTvOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamrootIntegrationTvOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FCBF214F9CBA0005149E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7683FCC1214F9CBA0005149E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7683FCC4214F9CBA0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7683FCC4214F9CBA0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-tvOS.storyboard"; sourceTree = "<group>"; };
 		7683FCC6214F9CBB0005149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7683FCC8214F9CBB0005149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7683FCD0214F9E880005149E /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FCD3214F9E880005149E /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FCD6214F9E880005149E /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PlayerViewController-tvOS.xib"; sourceTree = "<group>"; };
+		7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCEC214FBC600005149E /* Asset+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCED214FBC600005149E /* Program+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCEE214FBC600005149E /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7683FCF0214FBC600005149E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7683FCF1214FBC600005149E /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		7683FCF2214FBC600005149E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7683FD01214FBC910005149E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,6 +271,7 @@
 		76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayable.swift; sourceTree = "<group>"; };
 		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +299,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */,
+				7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */,
+				7683FCD4214F9E880005149E /* Player.framework in Frameworks */,
+				7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
+				C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +374,8 @@
 				FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */,
 				D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */,
 				D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */,
+				61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */,
+				A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -333,35 +383,11 @@
 		7683FC81214AA8990005149E /* StreamrootIntegrationApp */ = {
 			isa = PBXGroup;
 			children = (
-				7683FC82214AA8990005149E /* AppDelegate.swift */,
-				7683FCB7214BEE970005149E /* ViewControllers */,
-				7683FCB6214BEE8A0005149E /* Extensions */,
 				7683FCB8214BEEED0005149E /* UI */,
 				7683FC89214AA89B0005149E /* Assets.xcassets */,
 				7683FC8E214AA89B0005149E /* Info.plist */,
 			);
 			path = StreamrootIntegrationApp;
-			sourceTree = "<group>";
-		};
-		7683FCB6214BEE8A0005149E /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7683FCAE214BEE350005149E /* Asset+Extensions.swift */,
-				7683FCB0214BEE4D0005149E /* Program+Extensions.swift */,
-				7683FCB2214BEE600005149E /* Date+Extensions.swift */,
-				7683FCB4214BEE7C0005149E /* UIViewController+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7683FCB7214BEE970005149E /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7683FCA0214AAABF0005149E /* ListViewController.swift */,
-				7683FCA4214AD5120005149E /* PlayerViewController.swift */,
-				7683FCAC214BB83A0005149E /* LoginViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		7683FCB8214BEEED0005149E /* UI */ = {
@@ -377,24 +403,66 @@
 		7683FCBE214F9CBA0005149E /* StreamrootIntegrationTvOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				7683FCBF214F9CBA0005149E /* AppDelegate.swift */,
-				7683FCC1214F9CBA0005149E /* ViewController.swift */,
-				7683FCC3214F9CBA0005149E /* Main.storyboard */,
+				7683FCE6214FBBBF0005149E /* UI */,
 				7683FCC6214F9CBB0005149E /* Assets.xcassets */,
 				7683FCC8214F9CBB0005149E /* Info.plist */,
 			);
 			path = StreamrootIntegrationTvOSApp;
 			sourceTree = "<group>";
 		};
+		7683FCE6214FBBBF0005149E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */,
+				7683FCC3214F9CBA0005149E /* Main-tvOS.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7683FCE9214FBC600005149E /* Shared Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7683FD01214FBC910005149E /* AppDelegate.swift */,
+				7683FCEA214FBC600005149E /* Extensions */,
+				7683FCEF214FBC600005149E /* ViewControllers */,
+			);
+			path = "Shared Classes";
+			sourceTree = "<group>";
+		};
+		7683FCEA214FBC600005149E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */,
+				7683FCEC214FBC600005149E /* Asset+Extensions.swift */,
+				7683FCED214FBC600005149E /* Program+Extensions.swift */,
+				7683FCEE214FBC600005149E /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7683FCEF214FBC600005149E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7683FCF0214FBC600005149E /* ListViewController.swift */,
+				7683FCF1214FBC600005149E /* PlayerViewController.swift */,
+				7683FCF2214FBC600005149E /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		76AFFECA2146844C00402BA2 = {
 			isa = PBXGroup;
 			children = (
+				7683FCD6214F9E880005149E /* Exposure.framework */,
+				7683FCD3214F9E880005149E /* Player.framework */,
+				7683FCD0214F9E880005149E /* ExposurePlayback.framework */,
 				7683FC9C214AA9D90005149E /* Exposure.framework */,
 				7683FC99214AA9D90005149E /* Player.framework */,
 				7683FC96214AA9D90005149E /* ExposurePlayback.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				7683FC81214AA8990005149E /* StreamrootIntegrationApp */,
+				7683FCE9214FBC600005149E /* Shared Classes */,
 				7683FCBE214F9CBA0005149E /* StreamrootIntegrationTvOSApp */,
 				76AFFED52146844D00402BA2 /* Products */,
 				76AFFF432147B76500402BA2 /* Frameworks */,
@@ -503,6 +571,7 @@
 				474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */,
 				926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */,
 				ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */,
+				6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -582,13 +651,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7683FCCB214F9CBB0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationTvOSApp" */;
 			buildPhases = (
+				29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */,
 				7683FCB9214F9CBA0005149E /* Sources */,
 				7683FCBA214F9CBA0005149E /* Frameworks */,
 				7683FCBB214F9CBA0005149E /* Resources */,
+				A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */,
+				7683FCD9214F9E880005149E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7683FCCF214F9E880005149E /* PBXTargetDependency */,
 			);
 			name = StreamrootIntegrationTvOSApp;
 			productName = StreamrootIntegrationTvOSApp;
@@ -747,7 +820,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7683FCC7214F9CBB0005149E /* Assets.xcassets in Resources */,
-				7683FCC5214F9CBA0005149E /* Main.storyboard in Resources */,
+				7683FCC5214F9CBA0005149E /* Main-tvOS.storyboard in Resources */,
+				7683FCE8214FBC330005149E /* PlayerViewController-tvOS.xib in Resources */,
+				7683FCE4214FA48C0005149E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,6 +929,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationTvOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2B8F733BB3E2CC75EEFBA4FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -952,6 +1045,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer-tvOS/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry-tvOS/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream-tvOS/Starscream.framework",
+				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework",
+				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -959,14 +1078,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FCAF214BEE350005149E /* Asset+Extensions.swift in Sources */,
-				7683FCAD214BB83A0005149E /* LoginViewController.swift in Sources */,
-				7683FCB3214BEE600005149E /* Date+Extensions.swift in Sources */,
-				7683FCB1214BEE4D0005149E /* Program+Extensions.swift in Sources */,
-				7683FCB5214BEE7C0005149E /* UIViewController+Extensions.swift in Sources */,
-				7683FC83214AA8990005149E /* AppDelegate.swift in Sources */,
-				7683FCA2214AAABF0005149E /* ListViewController.swift in Sources */,
-				7683FCA6214AD5120005149E /* PlayerViewController.swift in Sources */,
+				7683FD02214FBC910005149E /* AppDelegate.swift in Sources */,
+				7683FCF7214FBC600005149E /* Program+Extensions.swift in Sources */,
+				7683FCF5214FBC600005149E /* Asset+Extensions.swift in Sources */,
+				7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */,
+				7683FCFD214FBC600005149E /* PlayerViewController.swift in Sources */,
+				7683FCF9214FBC600005149E /* Date+Extensions.swift in Sources */,
+				7683FCF3214FBC600005149E /* UIViewController+Extensions.swift in Sources */,
+				7683FCFB214FBC600005149E /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,8 +1093,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FCC2214F9CBA0005149E /* ViewController.swift in Sources */,
-				7683FCC0214F9CBA0005149E /* AppDelegate.swift in Sources */,
+				7683FD03214FBC910005149E /* AppDelegate.swift in Sources */,
+				7683FCF8214FBC600005149E /* Program+Extensions.swift in Sources */,
+				7683FCF6214FBC600005149E /* Asset+Extensions.swift in Sources */,
+				7683FD00214FBC600005149E /* LoginViewController.swift in Sources */,
+				7683FCFE214FBC600005149E /* PlayerViewController.swift in Sources */,
+				7683FCFA214FBC600005149E /* Date+Extensions.swift in Sources */,
+				7683FCF4214FBC600005149E /* UIViewController+Extensions.swift in Sources */,
+				7683FCFC214FBC600005149E /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1043,6 +1168,11 @@
 			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */;
 			targetProxy = 7683FC94214AA9D90005149E /* PBXContainerItemProxy */;
 		};
+		7683FCCF214F9E880005149E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFFF2B2147B3B100402BA2 /* ExposureStreamrootIntegration-tvOS */;
+			targetProxy = 7683FCCE214F9E880005149E /* PBXContainerItemProxy */;
+		};
 		76AFFEE02146844D00402BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 76AFFED32146844D00402BA2 /* ExposureStreamrootIntegration-iOS */;
@@ -1072,12 +1202,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		7683FCC3214F9CBA0005149E /* Main.storyboard */ = {
+		7683FCC3214F9CBA0005149E /* Main-tvOS.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7683FCC4214F9CBA0005149E /* Base */,
 			);
-			name = Main.storyboard;
+			name = "Main-tvOS.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1127,7 +1257,9 @@
 		};
 		7683FCC9214F9CBB0005149E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
@@ -1148,7 +1280,9 @@
 		};
 		7683FCCA214F9CBB0005149E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;

@@ -49,7 +49,7 @@ end
 
 
 target 'StreamrootIntegrationTvOSApp' do
-    platform :tvOS, '10.2'
+    platform :tvos, '10.2'
     use_frameworks!
     
     streamrootPod
