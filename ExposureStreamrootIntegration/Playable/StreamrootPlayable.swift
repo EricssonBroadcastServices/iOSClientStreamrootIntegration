@@ -187,6 +187,7 @@ public struct StreamrootPlayable: Playable {
         
     }
     
+    /// BugFix: StreamrootSDK re-encodes all URL passed with percent encoding. If we pass a previously percent encoded url to the SDK, it will re-encode the url again resulting in double encoding
     private func removePercentEncoding(url: URL) throws -> URL {
         guard let path = url.absoluteString.removingPercentEncoding, let rawUrl = URL(string: path) else {
             throw StreamrootIntegrationError.invalidUrlEncoding(path: url.absoluteString)
