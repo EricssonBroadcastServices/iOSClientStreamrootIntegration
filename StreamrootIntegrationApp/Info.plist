@@ -19,22 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-<<<<<<< HEAD
-	<string>7</string>
-=======
 	<string>8</string>
-	<key>Exposure</key>
-	<dict>
-		<key>BaseUrl</key>
-		<string></string>
-		<key>BusinessUnit</key>
-		<string></string>
-		<key>Customer</key>
-		<string></string>
-		<key>SessionToken</key>
-		<string></string>
-	</dict>
->>>>>>> master
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
