@@ -209,7 +209,7 @@ platform :ios do
          gym(
             export_method: "app-store",
             workspace: ENV["CLIENT_WORKSPACE"],
-            scheme: ENV[scheme]
+            scheme: scheme
             )
     end
     
