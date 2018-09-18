@@ -182,7 +182,7 @@ platform :ios do
         sigh(
              app_identifier: "com.emp.StreamrootIntegrationApp"
              )
-         
+        
          plistPath = "StreamrootIntegrationApp/Info.plist"
          if options[:os] == "iOS"
              plistPath = "StreamrootIntegrationApp/Info.plist"
@@ -190,23 +190,27 @@ platform :ios do
              plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
          end
          
-         scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
-         if options[:os] == "iOS"
-             plistPath = ENV["IOS_TESTFLIGHT_SCHEME"]
-         elsif options[:os] == "tvOS"
-             plistPath = ENV["TVOS_TESTFLIGHT_SCHEME"]
-         end
+         UI.message("plist #{plistPath}")
          
          set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
          set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
          set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
          set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
-             
+         
+         scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
+         if options[:os] == "iOS"
+             scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
+         elsif options[:os] == "tvOS"
+             scheme = ENV["TVOS_TESTFLIGHT_SCHEME"]
+         end
+         
+         UI.message("scheme #{scheme}")
+         
          gym(
-             export_method: "app-store",
-             workspace: ENV["CLIENT_WORKSPACE"],
-             scheme: ENV[scheme]
-             )
+            export_method: "app-store",
+            workspace: ENV["CLIENT_WORKSPACE"],
+            scheme: ENV[scheme]
+            )
     end
     
     private_lane :bump_build_number do
@@ -274,12 +278,12 @@ platform :ios do
     
     error do |lane, exception|
         
-        slack(
-              message: exception.message,
-              success: false
-              )
+        #slack(
+        #      message: exception.message,
+        #      success: false
+        #      )
               
-        UI.error("====> ERROR")
+        UI.error("====> ERROR",exception.message)
     end
 end
 
