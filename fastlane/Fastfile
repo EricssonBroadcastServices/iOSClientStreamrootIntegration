@@ -148,26 +148,18 @@ platform :ios do
         cocoapods()
     end
     
-    
-    lane :build_and_sign do
-        cert
-        sigh(
-             app_identifier: "com.emp.StreamrootIntegrationApp"
-            )
+    lane :testflight_beta do
+        build_and_sign(os: "iOS")
+        testflight(os: "ios")
         
-        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
-        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
-        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
-        set_info_plist_value(path: "StreamrootIntegrationApp/Info.plist", key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
-        
-        gym(
-            export_method: "app-store",
-            workspace: ENV["CLIENT_WORKSPACE"],
-            scheme: ENV["IOS_TESTFLIGHT_SCHEME"]
-            )
+        build_and_sign(os: "tvOS")
+        testflight(os: "appletvos")
     end
     
-    lane :testflight_beta do
+    
+    # Private lanes
+    
+    private_lane :testflight do |options|
         changelog = changelog_from_git_commits(
                                                commits_count: 10,
                                                pretty: '• %s',
@@ -175,6 +167,7 @@ platform :ios do
                                                )
                                                
         pilot(
+              app_platform: options[:os],
               app_identifier: ENV["APP_IDENTIFIER"],
               changelog: strip_emoji(changelog),
               skip_waiting_for_build_processing: true
@@ -183,7 +176,37 @@ platform :ios do
         notify_slack_new_testflight
     end
     
-    # Private lanes
+    private_lane :build_and_sign do |options|
+        cert
+        sigh(
+             app_identifier: "com.emp.StreamrootIntegrationApp"
+             )
+         
+         plistPath = "StreamrootIntegrationApp/Info.plist"
+         if options[:os] == "iOS"
+             plistPath = "StreamrootIntegrationApp/Info.plist"
+         else if options[:os] == "tvOS"
+             plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
+         end
+         
+         scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
+         if options[:os] == "iOS"
+             plistPath = ENV["IOS_TESTFLIGHT_SCHEME"]
+          else if options[:os] == "tvOS"
+             plistPath = ENV["TVOS_TESTFLIGHT_SCHEME"]
+         end
+         
+         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
+         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
+         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
+         set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
+             
+         gym(
+             export_method: "app-store",
+             workspace: ENV["CLIENT_WORKSPACE"],
+             scheme: ENV[scheme]
+             )
+    end
     
     private_lane :bump_build_number do
         new_build_number = increment_build_number(xcodeproj: ENV["XCODE_PROJECT"])
