@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="14113" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerViewController" customModule="StreamrootIntegrationApp" customModuleProvider="target">
+            <connections>
+                <outlet property="fastForwardButton" destination="NZL-TR-ZKR" id="679-q6-U9F"/>
+                <outlet property="playPauseButton" destination="dBY-tr-A0S" id="rqq-hq-JNJ"/>
+                <outlet property="rewindButton" destination="VDI-bJ-wE1" id="G7o-gj-RBo"/>
+                <outlet property="statsCanvas" destination="UOe-gR-Lqf" id="irq-i9-RPY"/>
+                <outlet property="videoCanvas" destination="CtQ-m1-aSp" id="qqa-5v-YPw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rse-hS-I1Q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CtQ-m1-aSp">
+                    <rect key="frame" x="90" y="60" width="1740" height="960"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UOe-gR-Lqf">
+                    <rect key="frame" x="90" y="60" width="1740" height="960"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zft-l7-aqq">
+                    <rect key="frame" x="90" y="60" width="1740" height="960"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3zq-ZG-iJt">
+                            <rect key="frame" x="645" y="437" width="451" height="86"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-bJ-wE1">
+                                    <rect key="frame" x="0.0" y="0.0" width="137" height="86"/>
+                                    <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                    <state key="normal" image="backward"/>
+                                    <connections>
+                                        <action selector="rewindAction:" destination="-1" eventType="primaryActionTriggered" id="J1a-aA-lWL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBY-tr-A0S">
+                                    <rect key="frame" x="157" y="0.0" width="137" height="86"/>
+                                    <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                    <state key="normal" image="play"/>
+                                    <connections>
+                                        <action selector="playPauseAction:" destination="-1" eventType="primaryActionTriggered" id="eGg-xZ-3np"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZL-TR-ZKR">
+                                    <rect key="frame" x="314" y="0.0" width="137" height="86"/>
+                                    <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                    <state key="normal" image="forward"/>
+                                    <connections>
+                                        <action selector="forwardAction:" destination="-1" eventType="primaryActionTriggered" id="Fbq-GT-Pdx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3zq-ZG-iJt" firstAttribute="centerX" secondItem="zft-l7-aqq" secondAttribute="centerX" id="2dd-79-Xrx"/>
+                        <constraint firstItem="3zq-ZG-iJt" firstAttribute="centerY" secondItem="zft-l7-aqq" secondAttribute="centerY" id="PLv-gt-0pj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="trailing" secondItem="zft-l7-aqq" secondAttribute="trailing" id="6fx-Q1-ltR"/>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="bottom" secondItem="zft-l7-aqq" secondAttribute="bottom" id="7M9-Hu-KSk"/>
+                <constraint firstItem="UOe-gR-Lqf" firstAttribute="top" secondItem="Pmt-tb-8Ig" secondAttribute="top" id="Fmg-OR-CjM"/>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="trailing" secondItem="UOe-gR-Lqf" secondAttribute="trailing" id="ONn-7R-n8o"/>
+                <constraint firstItem="CtQ-m1-aSp" firstAttribute="top" secondItem="Pmt-tb-8Ig" secondAttribute="top" id="R5b-gb-1EP"/>
+                <constraint firstItem="zft-l7-aqq" firstAttribute="leading" secondItem="Pmt-tb-8Ig" secondAttribute="leading" id="U8c-sO-TXk"/>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="trailing" secondItem="CtQ-m1-aSp" secondAttribute="trailing" id="WKq-bk-XI2"/>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="bottom" secondItem="CtQ-m1-aSp" secondAttribute="bottom" id="gE3-Qr-rkH"/>
+                <constraint firstItem="Pmt-tb-8Ig" firstAttribute="bottom" secondItem="UOe-gR-Lqf" secondAttribute="bottom" id="ijC-Jy-lu7"/>
+                <constraint firstItem="UOe-gR-Lqf" firstAttribute="leading" secondItem="Pmt-tb-8Ig" secondAttribute="leading" id="qdC-pQ-G0n"/>
+                <constraint firstItem="zft-l7-aqq" firstAttribute="top" secondItem="Pmt-tb-8Ig" secondAttribute="top" id="sN6-ow-gen"/>
+                <constraint firstItem="CtQ-m1-aSp" firstAttribute="leading" secondItem="Pmt-tb-8Ig" secondAttribute="leading" id="vUv-Uz-VWl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Pmt-tb-8Ig"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backward" width="57" height="32"/>
+        <image name="forward" width="57" height="32"/>
+        <image name="play" width="57" height="32"/>
+    </resources>
+</document>

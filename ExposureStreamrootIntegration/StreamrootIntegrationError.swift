@@ -10,4 +10,5 @@ import Foundation
 
 public enum StreamrootIntegrationError: Error {
     case unableToGenerateLocalManifestUrl(path: String?)
+    case invalidUrlEncoding(path: String)
 }

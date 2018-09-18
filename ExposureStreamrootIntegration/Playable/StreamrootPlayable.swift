@@ -109,7 +109,8 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(assetId: assetId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(assetId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -134,7 +135,8 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(channelId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -159,7 +161,8 @@ public struct StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(programId: programId, channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let dnaClient = try self.dnaTrigger.start(value.mediaLocator)
+                        let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
+                        let dnaClient = try self.dnaTrigger.latency(30).contentId(programId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -182,6 +185,14 @@ public struct StreamrootPlayable: Playable {
             }
         }
         
+    }
+    
+    /// BugFix: StreamrootSDK re-encodes all URL passed with percent encoding. If we pass a previously percent encoded url to the SDK, it will re-encode the url again resulting in double encoding
+    private func removePercentEncoding(url: URL) throws -> URL {
+        guard let path = url.absoluteString.removingPercentEncoding, let rawUrl = URL(string: path) else {
+            throw StreamrootIntegrationError.invalidUrlEncoding(path: url.absoluteString)
+        }
+        return rawUrl
     }
     
     
