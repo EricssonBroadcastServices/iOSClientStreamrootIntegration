@@ -87,7 +87,6 @@ platform :ios do
         end
     end
     
-    # Private lanes
     desc "Runs all the tests"
     lane :run_unit_tests do
         UI.success("== iOS Unit tests ==")
@@ -104,6 +103,19 @@ platform :ios do
                   
     end
     
+    lane :testflight_beta do
+        build_and_sign(os: "iOS")
+        testflight_platform(os: "ios")
+        
+        build_and_sign(os: "tvOS")
+        testflight_platform(os: "appletvos")
+    end
+    
+    lane :test do
+        
+    end
+    
+    # Private lanes
     private_lane :fix_dependencies do
         exposurePlaybackVersion = get_version_number(
                                                      xcodeproj: ENV["EXPOSURE_PLAYBACK_PROJECT"],
@@ -148,18 +160,7 @@ platform :ios do
         cocoapods()
     end
     
-    lane :testflight_beta do
-        build_and_sign(os: "iOS")
-        testflight(os: "ios")
-        
-        build_and_sign(os: "tvOS")
-        testflight(os: "appletvos")
-    end
-    
-    
-    # Private lanes
-    
-    private_lane :testflight do |options|
+    private_lane :testflight_platform do |options|
         changelog = changelog_from_git_commits(
                                                commits_count: 10,
                                                pretty: '• %s',
@@ -185,14 +186,14 @@ platform :ios do
          plistPath = "StreamrootIntegrationApp/Info.plist"
          if options[:os] == "iOS"
              plistPath = "StreamrootIntegrationApp/Info.plist"
-         else if options[:os] == "tvOS"
+         elsif options[:os] == "tvOS"
              plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
          end
          
          scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
          if options[:os] == "iOS"
              plistPath = ENV["IOS_TESTFLIGHT_SCHEME"]
-          else if options[:os] == "tvOS"
+         elsif options[:os] == "tvOS"
              plistPath = ENV["TVOS_TESTFLIGHT_SCHEME"]
          end
          
@@ -278,7 +279,7 @@ platform :ios do
               success: false
               )
               
-              UI.error("====> ERROR")
+        UI.error("====> ERROR")
     end
 end
 
