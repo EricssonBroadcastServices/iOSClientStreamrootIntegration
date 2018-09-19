@@ -40,6 +40,7 @@ class LoginViewController: UIViewController {
                 }
                 
                 if let sessionToken = $0.value?.sessionToken {
+                    UserDefaults.standard.set(sessionToken.value, forKey: "exposureSessionToken")
                     self?.onDidAuthenticate(sessionToken)
                 }
         }

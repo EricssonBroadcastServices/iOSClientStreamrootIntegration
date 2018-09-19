@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let root = window?.rootViewController as? UINavigationController {
             let viewController = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
             rootNav = root
-            
+            root.navigationBar.isTranslucent = false
             let conf = validateEnvironment()
             switch conf {
             case .valid(environment: let env):
@@ -105,7 +105,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func sessionToken() -> SessionToken? {
-        guard let token = (Bundle.main.object(forInfoDictionaryKey: "Exposure") as? [String: String])?["SessionToken"], token != "" else { return nil }
+        if let token = (Bundle.main.object(forInfoDictionaryKey: "Exposure") as? [String: String])?["SessionToken"], token != "" {
+            return SessionToken(value: token)
+        }
+        guard let token = UserDefaults.standard.string(forKey: "exposureSessionToken") else { return nil }
         return SessionToken(value: token)
     }
     

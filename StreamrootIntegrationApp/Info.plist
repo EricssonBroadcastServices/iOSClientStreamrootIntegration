@@ -23,11 +23,11 @@
 	<key>Exposure</key>
 	<dict>
 		<key>BaseUrl</key>
-		<string></string>
+		<string>https://psempexposureapi.ebsd.ericsson.net</string>
 		<key>BusinessUnit</key>
-		<string></string>
+		<string>EnigmaTV</string>
 		<key>Customer</key>
-		<string></string>
+		<string>DevGroup</string>
 		<key>SessionToken</key>
 		<string></string>
 	</dict>
@@ -41,7 +41,7 @@
 	<key>Streamroot</key>
 	<dict>
 		<key>Key</key>
-		<string></string>
+		<string>ee4a9c36-543e-4346-a7c8-a82c9b555ada</string>
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

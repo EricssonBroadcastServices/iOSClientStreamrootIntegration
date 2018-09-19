@@ -27,12 +27,15 @@ class PlayerViewController: UIViewController {
     
     
     @IBAction func rewindAction(_ sender: Any) {
+        player.seek(toPosition: player.playheadPosition - 30 * 1000)
     }
     
     @IBAction func playPauseAction(_ sender: Any) {
+        player.isPlaying ? player.pause() : player.play()
     }
     
     @IBAction func forwardAction(_ sender: Any) {
+        player.seek(toPosition: player.playheadPosition + 30 * 1000)
     }
     
     override func viewDidLoad() {
