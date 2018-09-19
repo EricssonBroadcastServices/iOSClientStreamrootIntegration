@@ -104,10 +104,10 @@ platform :ios do
     end
     
     lane :testflight_beta do
-        build_and_sign(os: "iOS")
+        build_and_sign(os: "ios")
         testflight_platform(os: "ios")
         
-        build_and_sign(os: "tvOS")
+        build_and_sign(os: "tvos")
         testflight_platform(os: "appletvos")
     end
     
@@ -179,14 +179,26 @@ platform :ios do
     
     private_lane :build_and_sign do |options|
         cert
+        
+        profile = "com.emp.StreamrootIntegrationApp AppStore"
+        if options[:os] == "ios"
+            profile = "com.emp.StreamrootIntegrationApp AppStore"
+            elsif options[:os] == "tvos"
+            profile = "RedBee P2P tvOS Mac mini"
+        end
+        
+        UI.message("profile #{profile}")
+        
+        
         sigh(
+             platform: options[:os],
              app_identifier: "com.emp.StreamrootIntegrationApp"
              )
         
          plistPath = "StreamrootIntegrationApp/Info.plist"
-         if options[:os] == "iOS"
+         if options[:os] == "ios"
              plistPath = "StreamrootIntegrationApp/Info.plist"
-         elsif options[:os] == "tvOS"
+         elsif options[:os] == "tvos"
              plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
          end
          
@@ -198,19 +210,19 @@ platform :ios do
          set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
          
          scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
-         if options[:os] == "iOS"
+         if options[:os] == "ios"
              scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
-         elsif options[:os] == "tvOS"
+         elsif options[:os] == "tvos"
              scheme = ENV["TVOS_TESTFLIGHT_SCHEME"]
          end
          
          UI.message("scheme #{scheme}")
          
          gym(
-            export_method: "app-store",
-            workspace: ENV["CLIENT_WORKSPACE"],
-            scheme: scheme
-            )
+             export_method: "app-store",
+             workspace: ENV["CLIENT_WORKSPACE"],
+             scheme: scheme
+             )
     end
     
     private_lane :bump_build_number do
