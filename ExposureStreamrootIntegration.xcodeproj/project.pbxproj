@@ -230,6 +230,7 @@
 		7683FCF2214FBC600005149E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7683FD01214FBC910005149E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7684028221513CE40016BE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768402B52158E24E0016BE49 /* getting-started.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "getting-started.md"; sourceTree = "<group>"; };
 		76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureStreamrootIntegration.h; sourceTree = "<group>"; };
 		76AFFED82146844D00402BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -542,6 +543,7 @@
 		76AFFEFF21468A7700402BA2 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				768402B52158E24E0016BE49 /* getting-started.md */,
 			);
 			path = Documentation;
 			sourceTree = SOURCE_ROOT;
