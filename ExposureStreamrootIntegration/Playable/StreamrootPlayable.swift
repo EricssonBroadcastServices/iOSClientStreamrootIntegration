@@ -12,7 +12,7 @@ import Exposure
 import StreamrootSDK
 
 /// Defines a `Playable` which will prepare a *Streamroot* compatible `MediaSource`
-public struct StreamrootPlayable: Playable {
+public class StreamrootPlayable: Playable {
     /// Returns the unique asset identifier for the media.
     ///
     /// For VoD assets, this will be the assetId.
@@ -59,7 +59,35 @@ public struct StreamrootPlayable: Playable {
     }
     
     /// `DNAClient` build trigger. Use this property to configure the *StreamrootSDK* before the playable is fed to the `Player` object.
-    public let dnaTrigger: DNATrigger
+    internal var dnaTrigger: DNATrigger
+    
+    /// Set the latency
+    /// - parameter latency: The difference between current playback time and the live edge
+    /// - returns: Playable which will configure a *Streamroot* compatible `MediaSource`
+    ///
+    public func latency(_ latency: Int) -> StreamrootPlayable {
+        dnaTrigger = dnaTrigger.latency(latency)
+        return self
+    }
+    
+    /// Set the property
+    /// - parameter property: Used to fine-tune various parameters across all your integrations.
+    /// For more information about it, please refer to this https://support.streamroot.io/hc/en-us/articles/360001091914.
+    /// - returns: Playable which will configure a *Streamroot* compatible `MediaSource`
+    ///
+    public func property(_ property: String) -> StreamrootPlayable {
+        dnaTrigger = dnaTrigger.property(property)
+        return self
+    }
+    
+    /// Set the backendHost
+    /// - parameter backendHost: Used to change the place of the Streamroot backend.
+    /// - returns: Playable which will configure a *Streamroot* compatible `MediaSource`
+    ///
+    public func backendHost(_ backendHost: URL) -> StreamrootPlayable {
+        dnaTrigger = dnaTrigger.backendHost(backendHost)
+        return self
+    }
     
     /// Creates an asset playable used for streaming *VoD* content
     ///
@@ -110,7 +138,7 @@ public struct StreamrootPlayable: Playable {
                 if let value = entitlement {
                     do {
                         let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
-                        let dnaClient = try self.dnaTrigger.latency(30).contentId(assetId).start(reEncodedUrl)
+                        let dnaClient = try self.dnaTrigger.contentId(assetId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -136,7 +164,7 @@ public struct StreamrootPlayable: Playable {
                 if let value = entitlement {
                     do {
                         let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
-                        let dnaClient = try self.dnaTrigger.latency(30).contentId(channelId).start(reEncodedUrl)
+                        let dnaClient = try self.dnaTrigger.contentId(channelId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)
@@ -162,7 +190,7 @@ public struct StreamrootPlayable: Playable {
                 if let value = entitlement {
                     do {
                         let reEncodedUrl = try self.removePercentEncoding(url: value.mediaLocator)
-                        let dnaClient = try self.dnaTrigger.latency(30).contentId(programId).start(reEncodedUrl)
+                        let dnaClient = try self.dnaTrigger.contentId(programId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
                             callback(nil, ExposureError.generalError(error: dnaError), response)

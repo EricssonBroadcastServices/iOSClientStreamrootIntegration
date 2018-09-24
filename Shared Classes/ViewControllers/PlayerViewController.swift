@@ -18,6 +18,7 @@ class PlayerViewController: UIViewController {
     
     var player: Player<HLSNative<ExposureContext>>!
     var playable: StreamrootPlayable!
+    var currentSource: StreamrootSource?
 
     @IBOutlet weak var videoCanvas: UIView!
     @IBOutlet weak var statsCanvas: UIView!
@@ -38,6 +39,10 @@ class PlayerViewController: UIViewController {
         player.seek(toPosition: player.playheadPosition + 30 * 1000)
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        currentSource?.dnaClient.stop()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -52,8 +57,9 @@ class PlayerViewController: UIViewController {
                 (source as? StreamrootSource)?.dnaClient.stop()
             }
             .onPlaybackCreated{ [weak self] player, source in
-                guard let `self` = self else { return }
-                (source as? StreamrootSource)?.dnaClient.displayStats(onView: self.statsCanvas)
+                guard let `self` = self, let source = source as? StreamrootSource else { return }
+                source.dnaClient.displayStats(onView: self.statsCanvas)
+                self.currentSource = source
             }
             .onEntitlementResponse{ [weak self] player, source, entitlement in
                 self?.rewindButton.isEnabled = entitlement.rwEnabled

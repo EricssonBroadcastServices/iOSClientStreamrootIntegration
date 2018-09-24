@@ -204,7 +204,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
         let playable = StreamrootPlayable(programId: program.programId, channelId: program.channelId, dnaDelegate: playerViewController)
-        playerViewController.playable = playable
+        playerViewController.playable = playable.latency(30)
         presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
     
@@ -214,7 +214,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
         let playable = StreamrootPlayable(channelId: channel.assetId, dnaDelegate: playerViewController)
-        playerViewController.playable = playable
+        playerViewController.playable = playable.latency(30)
         presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
     
@@ -224,7 +224,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         playerViewController.player = Player(environment: environment, sessionToken: sessionToken)
         
         let playable = StreamrootPlayable(assetId: asset.assetId, dnaDelegate: playerViewController)
-        playerViewController.playable = playable
+        playerViewController.playable = playable.latency(30)
         presenter.navigationController?.pushViewController(playerViewController, animated: true)
     }
 
