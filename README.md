@@ -1,4 +1,5 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Streamroot Compatible](https://img.shields.io/badge/streamroot-compatible-12a5ed.svg?style=flat)](https://streamroot.io)
 
 # Exposure Streamroot Integration
 
@@ -7,7 +8,7 @@
 * [Requirements](#requirements)
 * [Installation](#installation)
 * Documentation
-    - [Docs](https://github.com/EricssonBroadcastServices/iOSClientExposureStreamrootIntegration/doc.md)
+    - [Getting Started](https://github.com/EricssonBroadcastServices/iOSClientExposureStreamrootIntegration/getting-started.md)
 * [Release Notes](#release-notes)
 * [Upgrade Guides](#upgrade-guides)
 * [Known Limitations](https://github.com/EricssonBroadcastServices/iOSClientExposureStreamrootIntegration/blob/master/KNOWN_LIMITATIONS.md)
