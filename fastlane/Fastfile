@@ -46,11 +46,9 @@ platform :ios do
     end
     
     lane :release do
-        version = "v" + get_version_number(
-                                           xcodeproj: ENV["XCODE_PROJECT"],
-                                           target: ENV["RELEASE_VERSION_TARGET"]
-                                           )
-        
+        version = "v" + get_version_number(xcodeproj: ENV["XCODE_PROJECT"],
+                                           target: ENV["RELEASE_VERSION_TARGET"])
+        UI.message("version #{version}")
         if !git_tag_exists(tag: version)
             
             Action.sh("git branch '#{version}'")
@@ -111,18 +109,17 @@ platform :ios do
         testflight_platform(os: "appletvos")
     end
     
-    lane :test do
-        
-    end
-    
     # Private lanes
     private_lane :fix_dependencies do
-        exposurePlaybackVersion = get_version_number(
-                                                     xcodeproj: ENV["EXPOSURE_PLAYBACK_PROJECT"],
-                                                     target: ENV["EXPOSURE_PLAYBACK_PROJECT_RELEASE_VERSION_TARGET"]
-                                                     )
+        exposurePlaybackVersion = get_version_number(xcodeproj: ENV["XCODE_PROJECT"],
+                                                     target: ENV["RELEASE_VERSION_TARGET"])
+         UI.message(ENV["EXPOSURE_PLAYBACK_PROJECT"])
+         UI.message(ENV["EXPOSURE_PLAYBACK_PROJECT_RELEASE_VERSION_TARGET"])
+         UI.message("EXP: [#{exposurePlaybackVersion}]")
+         
         cartfile = File.expand_path("..",Dir.pwd) + "/Cartfile"
         UI.message(cartfile)
+        
         if File.exists?(cartfile)
             temp_file = Tempfile.new('foo')
             begin
@@ -141,7 +138,6 @@ platform :ios do
                 temp_file.close
                 temp_file.unlink
             end
-            
         end
     end
     
@@ -290,10 +286,10 @@ platform :ios do
     
     error do |lane, exception|
         
-        #slack(
-        #      message: exception.message,
-        #      success: false
-        #      )
+        slack(
+              message: exception.message,
+              success: false
+              )
               
         UI.error("====> ERROR",exception.message)
     end
