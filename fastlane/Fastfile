@@ -126,7 +126,7 @@ platform :ios do
                 File.open(cartfile, 'r') do |file|
                     file.each_line do |line|
                         if line.include? "EricssonBroadcastServices/iOSClientExposurePlayback"
-                            temp_file.puts line.gsub('"master"',"~> "+version)
+                            temp_file.puts line.gsub('"master"',"~> "+exposurePlaybackVersion)
                             else
                             temp_file.puts line
                         end
@@ -137,6 +137,7 @@ platform :ios do
                 ensure
                 temp_file.close
                 temp_file.unlink
+                
             end
         end
     end
@@ -278,18 +279,11 @@ platform :ios do
         str = str.force_encoding('utf-8').encode
         clean_text = str.each_char.select { |char| char.bytesize < 4 }.join.squeeze(' ')
     end
-
-    after_all do |lane|
-        # This block is called, only if the executed lane was successful
-        
-    end
     
     error do |lane, exception|
         
-        slack(
-              message: exception.message,
-              success: false
-              )
+        slack(message: exception.message,
+              success: false)
               
         UI.error("====> ERROR",exception.message)
     end
