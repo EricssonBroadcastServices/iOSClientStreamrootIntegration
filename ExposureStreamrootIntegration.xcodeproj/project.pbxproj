@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC52214A3FFE0005149E /* Nimble.framework */; };
-		7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC54214A3FFE0005149E /* Quick.framework */; };
-		7683FC57214A400F0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC56214A400F0005149E /* Nimble.framework */; };
-		7683FC59214A400F0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC58214A400F0005149E /* Quick.framework */; };
 		7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
@@ -24,11 +20,8 @@
 		7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */; };
 		7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; };
 		7683FC98214AA9D90005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC9A214AA9D90005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; };
 		7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; };
 		7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FCA7214AD5120005149E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCA5214AD5120005149E /* PlayerViewController.xib */; };
 		7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
@@ -36,11 +29,8 @@
 		7683FCC5214F9CBA0005149E /* Main-tvOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCC3214F9CBA0005149E /* Main-tvOS.storyboard */; };
 		7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
 		7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; };
 		7683FCD2214F9E880005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD4214F9E880005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; };
 		7683FCD5214F9E880005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; };
 		7683FCD8214F9E880005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FCE4214FA48C0005149E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8E214AA89B0005149E /* Info.plist */; };
 		7683FCE8214FBC330005149E /* PlayerViewController-tvOS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */; };
@@ -72,18 +62,6 @@
 		76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
 		76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
 		76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
-		76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B119214829DA003514F4 /* Exposure.framework */; };
-		76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11B214829DA003514F4 /* ExposurePlayback.framework */; };
-		76B7B11E214829DA003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11D214829DA003514F4 /* Player.framework */; };
-		76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11F214829EB003514F4 /* Exposure.framework */; };
-		76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B121214829EB003514F4 /* ExposurePlayback.framework */; };
-		76B7B124214829EB003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B123214829EB003514F4 /* Player.framework */; };
-		76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12521482A05003514F4 /* Exposure.framework */; };
-		76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12721482A05003514F4 /* ExposurePlayback.framework */; };
-		76B7B12A21482A05003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12921482A05003514F4 /* Player.framework */; };
-		76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12B21482A17003514F4 /* Exposure.framework */; };
-		76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12D21482A17003514F4 /* ExposurePlayback.framework */; };
-		76B7B13021482A17003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12F21482A17003514F4 /* Player.framework */; };
 		76B7B13B21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
 		76B7B13C21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
 		76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */; };
@@ -259,9 +237,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */,
-				7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */,
-				7683FC9A214AA9D90005149E /* Player.framework in Frameworks */,
 				7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +245,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */,
-				7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */,
-				7683FCD4214F9E880005149E /* Player.framework in Frameworks */,
 				7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +253,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */,
-				76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B11E214829DA003514F4 /* Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +260,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */,
-				7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */,
-				76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */,
-				76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B124214829EB003514F4 /* Player.framework in Frameworks */,
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,9 +268,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */,
-				76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B12A21482A05003514F4 /* Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,11 +275,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC57214A400F0005149E /* Nimble.framework in Frameworks */,
-				7683FC59214A400F0005149E /* Quick.framework in Frameworks */,
-				76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */,
-				76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B13021482A17003514F4 /* Player.framework in Frameworks */,
 				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
