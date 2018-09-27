@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
-		45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */; };
-		6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */; };
 		7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC52214A3FFE0005149E /* Nimble.framework */; };
 		7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC54214A3FFE0005149E /* Quick.framework */; };
 		7683FC57214A400F0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC56214A400F0005149E /* Nimble.framework */; };
@@ -68,8 +65,6 @@
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
-		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
-		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
 		76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
@@ -99,10 +94,6 @@
 		76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
 		76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
 		76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
-		7E515780BECB6EBBD18B2DFB /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
-		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
-		C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */; };
-		F73FE4E7AF7FBA573F16299F /* Pods_ExposureStreamrootIntegration_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,14 +177,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; sourceTree = "<group>"; };
-		6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationTvOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC50214A3EE70005149E /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
 		7683FC51214A3EEF0005149E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
 		7683FC52214A3FFE0005149E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,7 +232,6 @@
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootIntegrationError.swift; sourceTree = "<group>"; };
 		76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSource.swift; sourceTree = "<group>"; };
@@ -270,17 +252,6 @@
 		76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayable.swift; sourceTree = "<group>"; };
-		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; sourceTree = "<group>"; };
-		AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
-		E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,7 +263,6 @@
 				7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */,
 				7683FC9A214AA9D90005149E /* Player.framework in Frameworks */,
 				7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
-				6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +274,6 @@
 				7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */,
 				7683FCD4214F9E880005149E /* Player.framework in Frameworks */,
 				7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
-				C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +284,6 @@
 				76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */,
 				76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B11E214829DA003514F4 /* Player.framework in Frameworks */,
-				03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
-				7E515780BECB6EBBD18B2DFB /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +297,6 @@
 				76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B124214829EB003514F4 /* Player.framework in Frameworks */,
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +307,6 @@
 				76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */,
 				76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B12A21482A05003514F4 /* Player.framework in Frameworks */,
-				A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,32 +320,12 @@
 				76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */,
 				76B7B13021482A17003514F4 /* Player.framework in Frameworks */,
 				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				F73FE4E7AF7FBA573F16299F /* Pods_ExposureStreamrootIntegration_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58D3D1BCC3EA062E9690825F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */,
-				2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */,
-				257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */,
-				33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */,
-				B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */,
-				E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */,
-				AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */,
-				FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */,
-				D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */,
-				D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */,
-				61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */,
-				A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7683FC81214AA8990005149E /* StreamrootIntegrationApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,7 +412,6 @@
 				7683FCBE214F9CBA0005149E /* StreamrootIntegrationTvOSApp */,
 				76AFFED52146844D00402BA2 /* Products */,
 				76AFFF432147B76500402BA2 /* Frameworks */,
-				58D3D1BCC3EA062E9690825F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -492,7 +436,6 @@
 				76AFFEF02146866100402BA2 /* LICENSE */,
 				76AFFEF12146866100402BA2 /* README.md */,
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
-				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
 				7683FC50214A3EE70005149E /* Cartfile.private */,
 				7683FC51214A3EEF0005149E /* Cartfile.resolved */,
@@ -555,7 +498,6 @@
 				7683FC58214A400F0005149E /* Quick.framework */,
 				7683FC52214A3FFE0005149E /* Nimble.framework */,
 				7683FC54214A3FFE0005149E /* Quick.framework */,
-				7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */,
 				76B7B12B21482A17003514F4 /* Exposure.framework */,
 				76B7B12D21482A17003514F4 /* ExposurePlayback.framework */,
 				76B7B12F21482A17003514F4 /* Player.framework */,
@@ -568,12 +510,6 @@
 				76B7B119214829DA003514F4 /* Exposure.framework */,
 				76B7B11B214829DA003514F4 /* ExposurePlayback.framework */,
 				76B7B11D214829DA003514F4 /* Player.framework */,
-				7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */,
-				3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */,
-				474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */,
-				926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */,
-				ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */,
-				6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -632,11 +568,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7683FC8F214AA89B0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationApp" */;
 			buildPhases = (
-				77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */,
 				7683FC7C214AA8990005149E /* Sources */,
 				7683FC7D214AA8990005149E /* Frameworks */,
 				7683FC7E214AA8990005149E /* Resources */,
-				42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */,
 				7683FC9F214AA9D90005149E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -653,11 +587,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7683FCCB214F9CBB0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationTvOSApp" */;
 			buildPhases = (
-				29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */,
 				7683FCB9214F9CBA0005149E /* Sources */,
 				7683FCBA214F9CBA0005149E /* Frameworks */,
 				7683FCBB214F9CBA0005149E /* Resources */,
-				A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */,
 				7683FCD9214F9E880005149E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -674,7 +606,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-iOS" */;
 			buildPhases = (
-				226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */,
 				76AFFECF2146844D00402BA2 /* Sources */,
 				76AFFED02146844D00402BA2 /* Frameworks */,
 				76AFFED12146844D00402BA2 /* Headers */,
@@ -693,12 +624,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFEEB2146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegrationTests" */;
 			buildPhases = (
-				2B8F733BB3E2CC75EEFBA4FF /* [CP] Check Pods Manifest.lock */,
 				76AFFED92146844D00402BA2 /* Sources */,
 				76AFFEDA2146844D00402BA2 /* Frameworks */,
 				76AFFEDB2146844D00402BA2 /* Resources */,
 				76AFFF6F2147BA7A00402BA2 /* CopyFiles */,
-				1E57B3EF37DD14684490F09A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -714,7 +643,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFF412147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOS" */;
 			buildPhases = (
-				4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */,
 				76AFFF272147B3B100402BA2 /* Sources */,
 				76AFFF282147B3B100402BA2 /* Frameworks */,
 				76AFFF292147B3B100402BA2 /* Headers */,
@@ -733,12 +661,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFF422147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOSTests" */;
 			buildPhases = (
-				341FB2E3FF65DCCE2C6524B5 /* [CP] Check Pods Manifest.lock */,
 				76AFFF302147B3B100402BA2 /* Sources */,
 				76AFFF312147B3B100402BA2 /* Frameworks */,
 				76AFFF322147B3B100402BA2 /* Resources */,
 				76AFFF802148127300402BA2 /* CopyFiles */,
-				157087436F6BD878E68BB220 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -832,7 +758,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF852148140C00402BA2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,7 +772,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF862148140C00402BA2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,221 +783,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		157087436F6BD878E68BB220 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-tvOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-tvOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-tvOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E57B3EF37DD14684490F09A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-iOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-iOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationTvOSApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B8F733BB3E2CC75EEFBA4FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegrationTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		341FB2E3FF65DCCE2C6524B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-iOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-iOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-tvOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-tvOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-tvOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7683FC7C214AA8990005149E /* Sources */ = {
@@ -1217,7 +926,6 @@
 /* Begin XCBuildConfiguration section */
 		7683FC90214AA89B0005149E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1238,7 +946,6 @@
 		};
 		7683FC91214AA89B0005149E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1259,7 +966,6 @@
 		};
 		7683FCC9214F9CBB0005149E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -1282,7 +988,6 @@
 		};
 		7683FCCA214F9CBB0005149E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -1425,7 +1130,6 @@
 		};
 		76AFFEE92146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1459,7 +1163,6 @@
 		};
 		76AFFEEA2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1492,7 +1195,6 @@
 		};
 		76AFFEEC2146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1516,7 +1218,6 @@
 		};
 		76AFFEED2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1540,7 +1241,6 @@
 		};
 		76AFFF3D2147B3B100402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1574,7 +1274,6 @@
 		};
 		76AFFF3E2147B3B100402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1607,7 +1306,6 @@
 		};
 		76AFFF3F2147B3B100402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1633,7 +1331,6 @@
 		};
 		76AFFF402147B3B100402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

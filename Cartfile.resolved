@@ -1,5 +1,8 @@
+binary "https://sdk.streamroot.io/ios/StreamrootSDK.json" "3.3.2"
 github "EricssonBroadcastServices/iOSClientExposure" "f6c33fa6c3f955802f12a0f124ba79f72fd7ca28"
 github "EricssonBroadcastServices/iOSClientExposurePlayback" "6674621ac1c84d9efe0777f1b321414930c078f7"
 github "EricssonBroadcastServices/iOSClientPlayer" "0a1d878daabcde13446df6f91035b83161369295"
 github "Quick/Nimble" "v7.3.1"
 github "Quick/Quick" "v1.3.2"
+github "daltoniam/Starscream" "3.0.5"
+github "getsentry/sentry-cocoa" "4.1.0"

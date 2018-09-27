@@ -10,8 +10,11 @@ Version `3.3.0`
 * `Reported`: 2.0.91
 
 
+## Resolved Limitations
+
 ### `EMP-11751`
 Full Support for dependency management using `Carthage` is not available due to a bug in the `GCDWebServer` build definitions.
 
 * `Reported`: 2.0.91
-* `Workaround`: Use Cocoapods for managing `StreamroodSDK` dependencies and `Carthage` for *RedBee Media* related modules.
+* `Resolved`: 2.0.91
+* `Solution`: Carthage now supported.
