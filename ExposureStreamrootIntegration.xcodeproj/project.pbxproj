@@ -7,6 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761A2A3F21663D82005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A4021663D82005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A4121663D82005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A4221663D82005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A4321663D82005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A4421663D82005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A4521663D8C005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A4621663D8C005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A4721663D8C005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A4821663D8C005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A4921663D8C005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A4A21663D8C005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A4D21663D97005EF98C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4B21663D97005EF98C /* Quick.framework */; };
+		761A2A4E21663D97005EF98C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4C21663D97005EF98C /* Nimble.framework */; };
+		761A2A5521663E62005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A5621663E62005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A5721663E62005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A5821663E62005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A5921663E62005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A5A21663E62005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A5B21663E70005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A5C21663E70005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A5D21663E70005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A5E21663E70005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A5F21663E70005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A6021663E70005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A6F21663EAD005EF98C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A6D21663EAC005EF98C /* Nimble.framework */; };
+		761A2A7021663EAD005EF98C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A6E21663EAD005EF98C /* Quick.framework */; };
+		761A2A7721663F24005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A7821663F24005EF98C /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7921663F24005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A7A21663F24005EF98C /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7B21663F24005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A7C21663F24005EF98C /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7D21663F24005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A7E21663F24005EF98C /* Sentry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7F21663F24005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A8021663F24005EF98C /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A8121663F24005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A8221663F24005EF98C /* StreamrootSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A8F21664479005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A9021664479005EF98C /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9121664479005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A9221664479005EF98C /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9321664479005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A9421664479005EF98C /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9521664479005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A9621664479005EF98C /* Sentry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9721664479005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A9821664479005EF98C /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9921664479005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A9A21664479005EF98C /* StreamrootSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9B2166454B005EF98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
@@ -42,7 +95,6 @@
 		7683FCFE214FBC600005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF1214FBC600005149E /* PlayerViewController.swift */; };
 		7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
 		7683FD00214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
-		7683FD02214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7683FD03214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7684028321513CE40016BE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7684028221513CE40016BE49 /* Assets.xcassets */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
@@ -106,7 +158,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				761A2A7A21663F24005EF98C /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A8221663F24005EF98C /* StreamrootSDK.framework in Embed Frameworks */,
+				761A2A8021663F24005EF98C /* Starscream.framework in Embed Frameworks */,
+				761A2A7C21663F24005EF98C /* Player.framework in Embed Frameworks */,
 				7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+				761A2A7E21663F24005EF98C /* Sentry.framework in Embed Frameworks */,
+				761A2A7821663F24005EF98C /* Exposure.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,7 +175,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				761A2A9221664479005EF98C /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A9A21664479005EF98C /* StreamrootSDK.framework in Embed Frameworks */,
+				761A2A9821664479005EF98C /* Starscream.framework in Embed Frameworks */,
+				761A2A9421664479005EF98C /* Player.framework in Embed Frameworks */,
 				7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+				761A2A9621664479005EF98C /* Sentry.framework in Embed Frameworks */,
+				761A2A9021664479005EF98C /* Exposure.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +207,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		761A2A3921663D82005EF98C /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
+		761A2A3A21663D82005EF98C /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		761A2A3B21663D82005EF98C /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		761A2A3C21663D82005EF98C /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
+		761A2A3D21663D82005EF98C /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
+		761A2A3E21663D82005EF98C /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		761A2A4B21663D97005EF98C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		761A2A4C21663D97005EF98C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		761A2A4F21663E62005EF98C /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/tvOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		761A2A5021663E62005EF98C /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/tvOS/Exposure.framework; sourceTree = "<group>"; };
+		761A2A5121663E62005EF98C /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/tvOS/Player.framework; sourceTree = "<group>"; };
+		761A2A5221663E62005EF98C /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/tvOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		761A2A5321663E62005EF98C /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/tvOS/Sentry.framework; sourceTree = "<group>"; };
+		761A2A5421663E62005EF98C /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/tvOS/Starscream.framework; sourceTree = "<group>"; };
+		761A2A6D21663EAC005EF98C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		761A2A6E21663EAD005EF98C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		7683FC50214A3EE70005149E /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
 		7683FC51214A3EEF0005149E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
 		7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayableSpec.swift; sourceTree = "<group>"; };
@@ -203,7 +283,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761A2A7921663F24005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A8121663F24005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A7F21663F24005EF98C /* Starscream.framework in Frameworks */,
+				761A2A7B21663F24005EF98C /* Player.framework in Frameworks */,
 				7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
+				761A2A7D21663F24005EF98C /* Sentry.framework in Frameworks */,
+				761A2A7721663F24005EF98C /* Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +297,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761A2A9121664479005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A9921664479005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A9721664479005EF98C /* Starscream.framework in Frameworks */,
+				761A2A9321664479005EF98C /* Player.framework in Frameworks */,
 				7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
+				761A2A9521664479005EF98C /* Sentry.framework in Frameworks */,
+				761A2A8F21664479005EF98C /* Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +311,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761A2A3F21663D82005EF98C /* Sentry.framework in Frameworks */,
+				761A2A4021663D82005EF98C /* Starscream.framework in Frameworks */,
+				761A2A4121663D82005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A4221663D82005EF98C /* Player.framework in Frameworks */,
+				761A2A4321663D82005EF98C /* Exposure.framework in Frameworks */,
+				761A2A4421663D82005EF98C /* StreamrootSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +325,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
+				761A2A4521663D8C005EF98C /* Exposure.framework in Frameworks */,
+				761A2A4621663D8C005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A4721663D8C005EF98C /* Player.framework in Frameworks */,
+				761A2A4821663D8C005EF98C /* Sentry.framework in Frameworks */,
+				761A2A4921663D8C005EF98C /* Starscream.framework in Frameworks */,
+				761A2A4A21663D8C005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A4D21663D97005EF98C /* Quick.framework in Frameworks */,
+				761A2A4E21663D97005EF98C /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +340,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761A2A5521663E62005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A5621663E62005EF98C /* Exposure.framework in Frameworks */,
+				761A2A5721663E62005EF98C /* Player.framework in Frameworks */,
+				761A2A5821663E62005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A5921663E62005EF98C /* Sentry.framework in Frameworks */,
+				761A2A5A21663E62005EF98C /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +354,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
+				761A2A5B21663E70005EF98C /* Exposure.framework in Frameworks */,
+				761A2A5C21663E70005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A5D21663E70005EF98C /* Player.framework in Frameworks */,
+				761A2A5E21663E70005EF98C /* Sentry.framework in Frameworks */,
+				761A2A5F21663E70005EF98C /* Starscream.framework in Frameworks */,
+				761A2A6021663E70005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A6F21663EAD005EF98C /* Nimble.framework in Frameworks */,
+				761A2A7021663EAD005EF98C /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +530,22 @@
 		76AFFF432147B76500402BA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				761A2A6D21663EAC005EF98C /* Nimble.framework */,
+				761A2A6E21663EAD005EF98C /* Quick.framework */,
+				761A2A5021663E62005EF98C /* Exposure.framework */,
+				761A2A5221663E62005EF98C /* ExposurePlayback.framework */,
+				761A2A5121663E62005EF98C /* Player.framework */,
+				761A2A5321663E62005EF98C /* Sentry.framework */,
+				761A2A5421663E62005EF98C /* Starscream.framework */,
+				761A2A4F21663E62005EF98C /* StreamrootSDK.framework */,
+				761A2A4C21663D97005EF98C /* Nimble.framework */,
+				761A2A4B21663D97005EF98C /* Quick.framework */,
+				761A2A3D21663D82005EF98C /* Exposure.framework */,
+				761A2A3B21663D82005EF98C /* ExposurePlayback.framework */,
+				761A2A3C21663D82005EF98C /* Player.framework */,
+				761A2A3921663D82005EF98C /* Sentry.framework */,
+				761A2A3A21663D82005EF98C /* Starscream.framework */,
+				761A2A3E21663D82005EF98C /* StreamrootSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -689,7 +825,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FD02214FBC910005149E /* AppDelegate.swift in Sources */,
+				761A2A9B2166454B005EF98C /* AppDelegate.swift in Sources */,
 				7683FCF7214FBC600005149E /* Program+Extensions.swift in Sources */,
 				7683FCF5214FBC600005149E /* Asset+Extensions.swift in Sources */,
 				7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */,
@@ -831,6 +967,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -851,6 +991,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -872,6 +1016,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationTvOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -894,6 +1042,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationTvOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
