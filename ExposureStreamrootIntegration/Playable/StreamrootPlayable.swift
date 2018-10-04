@@ -137,7 +137,7 @@ public class StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(assetId: assetId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let reEncodedUrl = value.mediaLocator//try self.removePercentEncoding(url: value.mediaLocator)
+                        let reEncodedUrl = value.mediaLocator
                         let dnaClient = try self.dnaTrigger.contentId(assetId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
@@ -163,7 +163,7 @@ public class StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let reEncodedUrl = value.mediaLocator//try self.removePercentEncoding(url: value.mediaLocator)
+                        let reEncodedUrl = value.mediaLocator
                         let dnaClient = try self.dnaTrigger.contentId(channelId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
@@ -189,7 +189,7 @@ public class StreamrootPlayable: Playable {
             entitlementProvider.requestEntitlement(programId: programId, channelId: channelId, using: sessionToken, in: environment) { entitlement, exposureError, response in
                 if let value = entitlement {
                     do {
-                        let reEncodedUrl = value.mediaLocator//try self.removePercentEncoding(url: value.mediaLocator)
+                        let reEncodedUrl = value.mediaLocator
                         let dnaClient = try self.dnaTrigger.contentId(programId).start(reEncodedUrl)
                         guard let localManifestPath = dnaClient.manifestLocalURLPath, let localManifestUrl = URL(string: localManifestPath) else {
                             let dnaError = StreamrootIntegrationError.unableToGenerateLocalManifestUrl(path: dnaClient.manifestLocalURLPath)
