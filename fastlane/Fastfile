@@ -153,8 +153,6 @@ platform :ios do
                  no_build: false
                  )
         update_dependency_graph()
-        
-        cocoapods()
     end
     
     private_lane :testflight_platform do |options|
