@@ -7,13 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
-		45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */; };
-		6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */; };
-		7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC52214A3FFE0005149E /* Nimble.framework */; };
-		7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC54214A3FFE0005149E /* Quick.framework */; };
-		7683FC57214A400F0005149E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC56214A400F0005149E /* Nimble.framework */; };
-		7683FC59214A400F0005149E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC58214A400F0005149E /* Quick.framework */; };
+		761A2A3F21663D82005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A4021663D82005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A4121663D82005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A4221663D82005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A4321663D82005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A4421663D82005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A4521663D8C005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A4621663D8C005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A4721663D8C005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A4821663D8C005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A4921663D8C005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A4A21663D8C005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A4D21663D97005EF98C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4B21663D97005EF98C /* Quick.framework */; };
+		761A2A4E21663D97005EF98C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4C21663D97005EF98C /* Nimble.framework */; };
+		761A2A5521663E62005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A5621663E62005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A5721663E62005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A5821663E62005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A5921663E62005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A5A21663E62005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A5B21663E70005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A5C21663E70005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A5D21663E70005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A5E21663E70005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A5F21663E70005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A6021663E70005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A6F21663EAD005EF98C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A6D21663EAC005EF98C /* Nimble.framework */; };
+		761A2A7021663EAD005EF98C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A6E21663EAD005EF98C /* Quick.framework */; };
+		761A2A7721663F24005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; };
+		761A2A7821663F24005EF98C /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7921663F24005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; };
+		761A2A7A21663F24005EF98C /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7B21663F24005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; };
+		761A2A7C21663F24005EF98C /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7D21663F24005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; };
+		761A2A7E21663F24005EF98C /* Sentry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A7F21663F24005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; };
+		761A2A8021663F24005EF98C /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A8121663F24005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; };
+		761A2A8221663F24005EF98C /* StreamrootSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A8F21664479005EF98C /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; };
+		761A2A9021664479005EF98C /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9121664479005EF98C /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; };
+		761A2A9221664479005EF98C /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9321664479005EF98C /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; };
+		761A2A9421664479005EF98C /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9521664479005EF98C /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; };
+		761A2A9621664479005EF98C /* Sentry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9721664479005EF98C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; };
+		761A2A9821664479005EF98C /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9921664479005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
+		761A2A9A21664479005EF98C /* StreamrootSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2A9B2166454B005EF98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
@@ -27,24 +73,12 @@
 		7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */; };
 		7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; };
-		7683FC98214AA9D90005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC96214AA9D90005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC9A214AA9D90005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; };
-		7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC99214AA9D90005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; };
-		7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC9C214AA9D90005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FCA7214AD5120005149E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCA5214AD5120005149E /* PlayerViewController.xib */; };
 		7683FCAA214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
 		7683FCAB214AD8120005149E /* StreamrootSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCA8214AD7AA0005149E /* StreamrootSource.swift */; };
 		7683FCC5214F9CBA0005149E /* Main-tvOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCC3214F9CBA0005149E /* Main-tvOS.storyboard */; };
 		7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
 		7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; };
-		7683FCD2214F9E880005149E /* ExposurePlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD0214F9E880005149E /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD4214F9E880005149E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; };
-		7683FCD5214F9E880005149E /* Player.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD3214F9E880005149E /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; };
-		7683FCD8214F9E880005149E /* Exposure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FCD6214F9E880005149E /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FCE4214FA48C0005149E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8E214AA89B0005149E /* Info.plist */; };
 		7683FCE8214FBC330005149E /* PlayerViewController-tvOS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */; };
 		7683FCF3214FBC600005149E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */; };
@@ -61,15 +95,12 @@
 		7683FCFE214FBC600005149E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF1214FBC600005149E /* PlayerViewController.swift */; };
 		7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
 		7683FD00214FBC600005149E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FCF2214FBC600005149E /* LoginViewController.swift */; };
-		7683FD02214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7683FD03214FBC910005149E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
 		7684028321513CE40016BE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7684028221513CE40016BE49 /* Assets.xcassets */; };
 		76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFED42146844D00402BA2 /* ExposureStreamrootIntegration.framework */; };
 		76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76AFFEE52146844D00402BA2 /* ExposureStreamrootIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFFED72146844D00402BA2 /* ExposureStreamrootIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */; };
-		76AFFF852148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
-		76AFFF862148140C00402BA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 76AFFF842148140C00402BA2 /* Podfile */; };
 		76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */; };
 		76B7B111214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
 		76B7B112214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */; };
@@ -77,18 +108,6 @@
 		76B7B115214825E2003514F4 /* StreamrootIntegrationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */; };
 		76B7B1172148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
 		76B7B1182148260C003514F4 /* StreamrootAssetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */; };
-		76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B119214829DA003514F4 /* Exposure.framework */; };
-		76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11B214829DA003514F4 /* ExposurePlayback.framework */; };
-		76B7B11E214829DA003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11D214829DA003514F4 /* Player.framework */; };
-		76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B11F214829EB003514F4 /* Exposure.framework */; };
-		76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B121214829EB003514F4 /* ExposurePlayback.framework */; };
-		76B7B124214829EB003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B123214829EB003514F4 /* Player.framework */; };
-		76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12521482A05003514F4 /* Exposure.framework */; };
-		76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12721482A05003514F4 /* ExposurePlayback.framework */; };
-		76B7B12A21482A05003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12921482A05003514F4 /* Player.framework */; };
-		76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12B21482A17003514F4 /* Exposure.framework */; };
-		76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12D21482A17003514F4 /* ExposurePlayback.framework */; };
-		76B7B13021482A17003514F4 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B12F21482A17003514F4 /* Player.framework */; };
 		76B7B13B21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
 		76B7B13C21490DDD003514F4 /* StreamrootChannelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */; };
 		76B7B13E21490E17003514F4 /* StreamrootProgramSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */; };
@@ -99,10 +118,6 @@
 		76B7B145214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */; };
 		76B7B14D21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
 		76B7B14E21493F12003514F4 /* StreamrootPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */; };
-		7E515780BECB6EBBD18B2DFB /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */; };
-		A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */; };
-		C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */; };
-		F73FE4E7AF7FBA573F16299F /* Pods_ExposureStreamrootIntegration_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,10 +158,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7683FC9B214AA9D90005149E /* Player.framework in Embed Frameworks */,
-				7683FC9E214AA9D90005149E /* Exposure.framework in Embed Frameworks */,
-				7683FC98214AA9D90005149E /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A7A21663F24005EF98C /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A8221663F24005EF98C /* StreamrootSDK.framework in Embed Frameworks */,
+				761A2A8021663F24005EF98C /* Starscream.framework in Embed Frameworks */,
+				761A2A7C21663F24005EF98C /* Player.framework in Embed Frameworks */,
 				7683FC93214AA9D90005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+				761A2A7E21663F24005EF98C /* Sentry.framework in Embed Frameworks */,
+				761A2A7821663F24005EF98C /* Exposure.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,10 +175,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7683FCD5214F9E880005149E /* Player.framework in Embed Frameworks */,
-				7683FCD8214F9E880005149E /* Exposure.framework in Embed Frameworks */,
-				7683FCD2214F9E880005149E /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A9221664479005EF98C /* ExposurePlayback.framework in Embed Frameworks */,
+				761A2A9A21664479005EF98C /* StreamrootSDK.framework in Embed Frameworks */,
+				761A2A9821664479005EF98C /* Starscream.framework in Embed Frameworks */,
+				761A2A9421664479005EF98C /* Player.framework in Embed Frameworks */,
 				7683FCCD214F9E880005149E /* ExposureStreamrootIntegration.framework in Embed Frameworks */,
+				761A2A9621664479005EF98C /* Sentry.framework in Embed Frameworks */,
+				761A2A9021664479005EF98C /* Exposure.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,20 +207,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOS/Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.debug.xcconfig"; sourceTree = "<group>"; };
-		6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationTvOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ExposureStreamrootIntegration_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		761A2A3921663D82005EF98C /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
+		761A2A3A21663D82005EF98C /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		761A2A3B21663D82005EF98C /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/iOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		761A2A3C21663D82005EF98C /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/iOS/Player.framework; sourceTree = "<group>"; };
+		761A2A3D21663D82005EF98C /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/iOS/Exposure.framework; sourceTree = "<group>"; };
+		761A2A3E21663D82005EF98C /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/iOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		761A2A4B21663D97005EF98C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		761A2A4C21663D97005EF98C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		761A2A4F21663E62005EF98C /* StreamrootSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamrootSDK.framework; path = Carthage/Build/tvOS/StreamrootSDK.framework; sourceTree = "<group>"; };
+		761A2A5021663E62005EF98C /* Exposure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Exposure.framework; path = Carthage/Build/tvOS/Exposure.framework; sourceTree = "<group>"; };
+		761A2A5121663E62005EF98C /* Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Player.framework; path = Carthage/Build/tvOS/Player.framework; sourceTree = "<group>"; };
+		761A2A5221663E62005EF98C /* ExposurePlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposurePlayback.framework; path = Carthage/Build/tvOS/ExposurePlayback.framework; sourceTree = "<group>"; };
+		761A2A5321663E62005EF98C /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/tvOS/Sentry.framework; sourceTree = "<group>"; };
+		761A2A5421663E62005EF98C /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/tvOS/Starscream.framework; sourceTree = "<group>"; };
+		761A2A6D21663EAC005EF98C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		761A2A6E21663EAD005EF98C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		7683FC50214A3EE70005149E /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
 		7683FC51214A3EEF0005149E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
-		7683FC52214A3FFE0005149E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC54214A3FFE0005149E /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC56214A400F0005149E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC58214A400F0005149E /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayableSpec.swift; sourceTree = "<group>"; };
 		7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEntitlement+Extensions.swift"; sourceTree = "<group>"; };
 		7683FC60214A45E40005149E /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
@@ -209,17 +234,11 @@
 		7683FC89214AA89B0005149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7683FC8C214AA89B0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7683FC8E214AA89B0005149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7683FC96214AA9D90005149E /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC99214AA9D90005149E /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FC9C214AA9D90005149E /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FCA5214AD5120005149E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		7683FCA8214AD7AA0005149E /* StreamrootSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootSource.swift; sourceTree = "<group>"; };
 		7683FCBD214F9CBA0005149E /* StreamrootIntegrationTvOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamrootIntegrationTvOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FCC4214F9CBA0005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-tvOS.storyboard"; sourceTree = "<group>"; };
 		7683FCC8214F9CBB0005149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7683FCD0214F9E880005149E /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FCD3214F9E880005149E /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7683FCD6214F9E880005149E /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FCE7214FBC330005149E /* PlayerViewController-tvOS.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PlayerViewController-tvOS.xib"; sourceTree = "<group>"; };
 		7683FCEB214FBC600005149E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7683FCEC214FBC600005149E /* Asset+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
@@ -249,38 +268,14 @@
 		76AFFEFE21468A7700402BA2 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		76AFFF2C2147B3B100402BA2 /* ExposureStreamrootIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposureStreamrootIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFFF342147B3B100402BA2 /* ExposureStreamrootIntegration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExposureStreamrootIntegration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AFFF842148140C00402BA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76B7B110214825AB003514F4 /* StreamrootAssetEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B113214825E2003514F4 /* StreamrootIntegrationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootIntegrationError.swift; sourceTree = "<group>"; };
 		76B7B1162148260C003514F4 /* StreamrootAssetSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSource.swift; sourceTree = "<group>"; };
-		76B7B119214829DA003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B11B214829DA003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B11D214829DA003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B11F214829EB003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B121214829EB003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B123214829EB003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12521482A05003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12721482A05003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12921482A05003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12B21482A17003514F4 /* Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12D21482A17003514F4 /* ExposurePlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExposurePlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B7B12F21482A17003514F4 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B7B13A21490DDD003514F4 /* StreamrootChannelSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelSource.swift; sourceTree = "<group>"; };
 		76B7B13D21490E17003514F4 /* StreamrootProgramSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramSource.swift; sourceTree = "<group>"; };
 		76B7B140214910A7003514F4 /* StreamrootChannelEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootChannelEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B143214910E2003514F4 /* StreamrootProgramEntitlementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootProgramEntitlementProvider.swift; sourceTree = "<group>"; };
 		76B7B14C21493F12003514F4 /* StreamrootPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayable.swift; sourceTree = "<group>"; };
-		7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegration_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposureStreamrootIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp.release.xcconfig"; sourceTree = "<group>"; };
-		AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-iOS/Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamrootIntegrationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
-		E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamrootIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,11 +283,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC97214AA9D90005149E /* ExposurePlayback.framework in Frameworks */,
-				7683FC9D214AA9D90005149E /* Exposure.framework in Frameworks */,
-				7683FC9A214AA9D90005149E /* Player.framework in Frameworks */,
+				761A2A7921663F24005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A8121663F24005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A7F21663F24005EF98C /* Starscream.framework in Frameworks */,
+				761A2A7B21663F24005EF98C /* Player.framework in Frameworks */,
 				7683FC92214AA9D90005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
-				6CA524400096E51413F7BBD8 /* Pods_StreamrootIntegrationApp.framework in Frameworks */,
+				761A2A7D21663F24005EF98C /* Sentry.framework in Frameworks */,
+				761A2A7721663F24005EF98C /* Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +297,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FCD1214F9E880005149E /* ExposurePlayback.framework in Frameworks */,
-				7683FCD7214F9E880005149E /* Exposure.framework in Frameworks */,
-				7683FCD4214F9E880005149E /* Player.framework in Frameworks */,
+				761A2A9121664479005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A9921664479005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A9721664479005EF98C /* Starscream.framework in Frameworks */,
+				761A2A9321664479005EF98C /* Player.framework in Frameworks */,
 				7683FCCC214F9E880005149E /* ExposureStreamrootIntegration.framework in Frameworks */,
-				C33AB6190C17AFBF8C976A4E /* Pods_StreamrootIntegrationTvOSApp.framework in Frameworks */,
+				761A2A9521664479005EF98C /* Sentry.framework in Frameworks */,
+				761A2A8F21664479005EF98C /* Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +311,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B7B11A214829DA003514F4 /* Exposure.framework in Frameworks */,
-				76B7B11C214829DA003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B11E214829DA003514F4 /* Player.framework in Frameworks */,
-				03B7D3FFB031FC6F04F4A5D7 /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
-				7E515780BECB6EBBD18B2DFB /* Pods_ExposureStreamrootIntegration_iOS.framework in Frameworks */,
+				761A2A3F21663D82005EF98C /* Sentry.framework in Frameworks */,
+				761A2A4021663D82005EF98C /* Starscream.framework in Frameworks */,
+				761A2A4121663D82005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A4221663D82005EF98C /* Player.framework in Frameworks */,
+				761A2A4321663D82005EF98C /* Exposure.framework in Frameworks */,
+				761A2A4421663D82005EF98C /* StreamrootSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,13 +324,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC53214A3FFE0005149E /* Nimble.framework in Frameworks */,
-				7683FC55214A3FFE0005149E /* Quick.framework in Frameworks */,
-				76B7B120214829EB003514F4 /* Exposure.framework in Frameworks */,
-				76B7B122214829EB003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B124214829EB003514F4 /* Player.framework in Frameworks */,
 				76AFFEDE2146844D00402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				45CBC34336DB461AB928204F /* Pods_ExposureStreamrootIntegrationTests.framework in Frameworks */,
+				761A2A4521663D8C005EF98C /* Exposure.framework in Frameworks */,
+				761A2A4621663D8C005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A4721663D8C005EF98C /* Player.framework in Frameworks */,
+				761A2A4821663D8C005EF98C /* Sentry.framework in Frameworks */,
+				761A2A4921663D8C005EF98C /* Starscream.framework in Frameworks */,
+				761A2A4A21663D8C005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A4D21663D97005EF98C /* Quick.framework in Frameworks */,
+				761A2A4E21663D97005EF98C /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +340,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B7B12621482A05003514F4 /* Exposure.framework in Frameworks */,
-				76B7B12821482A05003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B12A21482A05003514F4 /* Player.framework in Frameworks */,
-				A537181184160264CC617865 /* Pods_ExposureStreamrootIntegration_tvOS.framework in Frameworks */,
+				761A2A5521663E62005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A5621663E62005EF98C /* Exposure.framework in Frameworks */,
+				761A2A5721663E62005EF98C /* Player.framework in Frameworks */,
+				761A2A5821663E62005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A5921663E62005EF98C /* Sentry.framework in Frameworks */,
+				761A2A5A21663E62005EF98C /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,38 +353,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC57214A400F0005149E /* Nimble.framework in Frameworks */,
-				7683FC59214A400F0005149E /* Quick.framework in Frameworks */,
-				76B7B12C21482A17003514F4 /* Exposure.framework in Frameworks */,
-				76B7B12E21482A17003514F4 /* ExposurePlayback.framework in Frameworks */,
-				76B7B13021482A17003514F4 /* Player.framework in Frameworks */,
 				76AFFF352147B3B100402BA2 /* ExposureStreamrootIntegration.framework in Frameworks */,
-				F73FE4E7AF7FBA573F16299F /* Pods_ExposureStreamrootIntegration_tvOSTests.framework in Frameworks */,
+				761A2A5B21663E70005EF98C /* Exposure.framework in Frameworks */,
+				761A2A5C21663E70005EF98C /* ExposurePlayback.framework in Frameworks */,
+				761A2A5D21663E70005EF98C /* Player.framework in Frameworks */,
+				761A2A5E21663E70005EF98C /* Sentry.framework in Frameworks */,
+				761A2A5F21663E70005EF98C /* Starscream.framework in Frameworks */,
+				761A2A6021663E70005EF98C /* StreamrootSDK.framework in Frameworks */,
+				761A2A6F21663EAD005EF98C /* Nimble.framework in Frameworks */,
+				761A2A7021663EAD005EF98C /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58D3D1BCC3EA062E9690825F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */,
-				2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */,
-				257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */,
-				33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */,
-				B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */,
-				E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */,
-				AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */,
-				FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */,
-				D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */,
-				D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */,
-				61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */,
-				A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7683FC81214AA8990005149E /* StreamrootIntegrationApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,12 +441,6 @@
 		76AFFECA2146844C00402BA2 = {
 			isa = PBXGroup;
 			children = (
-				7683FCD6214F9E880005149E /* Exposure.framework */,
-				7683FCD3214F9E880005149E /* Player.framework */,
-				7683FCD0214F9E880005149E /* ExposurePlayback.framework */,
-				7683FC9C214AA9D90005149E /* Exposure.framework */,
-				7683FC99214AA9D90005149E /* Player.framework */,
-				7683FC96214AA9D90005149E /* ExposurePlayback.framework */,
 				76AFFED62146844D00402BA2 /* ExposureStreamrootIntegration */,
 				76AFFEE12146844D00402BA2 /* ExposureStreamrootIntegrationTests */,
 				7683FC81214AA8990005149E /* StreamrootIntegrationApp */,
@@ -467,7 +448,6 @@
 				7683FCBE214F9CBA0005149E /* StreamrootIntegrationTvOSApp */,
 				76AFFED52146844D00402BA2 /* Products */,
 				76AFFF432147B76500402BA2 /* Frameworks */,
-				58D3D1BCC3EA062E9690825F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -492,7 +472,6 @@
 				76AFFEF02146866100402BA2 /* LICENSE */,
 				76AFFEF12146866100402BA2 /* README.md */,
 				76AFFEEF2146866100402BA2 /* UPGRADE_GUIDE.md */,
-				76AFFF842148140C00402BA2 /* Podfile */,
 				76AFFEFE21468A7700402BA2 /* Cartfile */,
 				7683FC50214A3EE70005149E /* Cartfile.private */,
 				7683FC51214A3EEF0005149E /* Cartfile.resolved */,
@@ -551,29 +530,22 @@
 		76AFFF432147B76500402BA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7683FC56214A400F0005149E /* Nimble.framework */,
-				7683FC58214A400F0005149E /* Quick.framework */,
-				7683FC52214A3FFE0005149E /* Nimble.framework */,
-				7683FC54214A3FFE0005149E /* Quick.framework */,
-				7683FC4D21494DA30005149E /* Pods_ExposureStreamrootIntegration_iOS.framework */,
-				76B7B12B21482A17003514F4 /* Exposure.framework */,
-				76B7B12D21482A17003514F4 /* ExposurePlayback.framework */,
-				76B7B12F21482A17003514F4 /* Player.framework */,
-				76B7B12521482A05003514F4 /* Exposure.framework */,
-				76B7B12721482A05003514F4 /* ExposurePlayback.framework */,
-				76B7B12921482A05003514F4 /* Player.framework */,
-				76B7B11F214829EB003514F4 /* Exposure.framework */,
-				76B7B121214829EB003514F4 /* ExposurePlayback.framework */,
-				76B7B123214829EB003514F4 /* Player.framework */,
-				76B7B119214829DA003514F4 /* Exposure.framework */,
-				76B7B11B214829DA003514F4 /* ExposurePlayback.framework */,
-				76B7B11D214829DA003514F4 /* Player.framework */,
-				7719BE96B44CDD859C575A10 /* Pods_ExposureStreamrootIntegration_tvOS.framework */,
-				3F16728E1B956F075A8D2A23 /* Pods_ExposureStreamrootIntegration_iOS.framework */,
-				474B7875FAFC60F16878F5FD /* Pods_ExposureStreamrootIntegration_tvOSTests.framework */,
-				926CD0449F7D744D181B2618 /* Pods_ExposureStreamrootIntegrationTests.framework */,
-				ED6A7C37803B1F0DF97DB2C6 /* Pods_StreamrootIntegrationApp.framework */,
-				6D78AD2633F8689814FD8B3C /* Pods_StreamrootIntegrationTvOSApp.framework */,
+				761A2A6D21663EAC005EF98C /* Nimble.framework */,
+				761A2A6E21663EAD005EF98C /* Quick.framework */,
+				761A2A5021663E62005EF98C /* Exposure.framework */,
+				761A2A5221663E62005EF98C /* ExposurePlayback.framework */,
+				761A2A5121663E62005EF98C /* Player.framework */,
+				761A2A5321663E62005EF98C /* Sentry.framework */,
+				761A2A5421663E62005EF98C /* Starscream.framework */,
+				761A2A4F21663E62005EF98C /* StreamrootSDK.framework */,
+				761A2A4C21663D97005EF98C /* Nimble.framework */,
+				761A2A4B21663D97005EF98C /* Quick.framework */,
+				761A2A3D21663D82005EF98C /* Exposure.framework */,
+				761A2A3B21663D82005EF98C /* ExposurePlayback.framework */,
+				761A2A3C21663D82005EF98C /* Player.framework */,
+				761A2A3921663D82005EF98C /* Sentry.framework */,
+				761A2A3A21663D82005EF98C /* Starscream.framework */,
+				761A2A3E21663D82005EF98C /* StreamrootSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -632,11 +604,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7683FC8F214AA89B0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationApp" */;
 			buildPhases = (
-				77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */,
 				7683FC7C214AA8990005149E /* Sources */,
 				7683FC7D214AA8990005149E /* Frameworks */,
 				7683FC7E214AA8990005149E /* Resources */,
-				42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */,
 				7683FC9F214AA9D90005149E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -653,11 +623,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7683FCCB214F9CBB0005149E /* Build configuration list for PBXNativeTarget "StreamrootIntegrationTvOSApp" */;
 			buildPhases = (
-				29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */,
 				7683FCB9214F9CBA0005149E /* Sources */,
 				7683FCBA214F9CBA0005149E /* Frameworks */,
 				7683FCBB214F9CBA0005149E /* Resources */,
-				A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */,
 				7683FCD9214F9E880005149E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -674,7 +642,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFEE82146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-iOS" */;
 			buildPhases = (
-				226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */,
 				76AFFECF2146844D00402BA2 /* Sources */,
 				76AFFED02146844D00402BA2 /* Frameworks */,
 				76AFFED12146844D00402BA2 /* Headers */,
@@ -693,12 +660,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFEEB2146844D00402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegrationTests" */;
 			buildPhases = (
-				2B8F733BB3E2CC75EEFBA4FF /* [CP] Check Pods Manifest.lock */,
 				76AFFED92146844D00402BA2 /* Sources */,
 				76AFFEDA2146844D00402BA2 /* Frameworks */,
 				76AFFEDB2146844D00402BA2 /* Resources */,
 				76AFFF6F2147BA7A00402BA2 /* CopyFiles */,
-				1E57B3EF37DD14684490F09A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -714,7 +679,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFF412147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOS" */;
 			buildPhases = (
-				4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */,
 				76AFFF272147B3B100402BA2 /* Sources */,
 				76AFFF282147B3B100402BA2 /* Frameworks */,
 				76AFFF292147B3B100402BA2 /* Headers */,
@@ -733,12 +697,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AFFF422147B3B100402BA2 /* Build configuration list for PBXNativeTarget "ExposureStreamrootIntegration-tvOSTests" */;
 			buildPhases = (
-				341FB2E3FF65DCCE2C6524B5 /* [CP] Check Pods Manifest.lock */,
 				76AFFF302147B3B100402BA2 /* Sources */,
 				76AFFF312147B3B100402BA2 /* Frameworks */,
 				76AFFF322147B3B100402BA2 /* Resources */,
 				76AFFF802148127300402BA2 /* CopyFiles */,
-				157087436F6BD878E68BB220 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -832,7 +794,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF852148140C00402BA2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,7 +808,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AFFF862148140C00402BA2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,227 +820,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		157087436F6BD878E68BB220 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-tvOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-tvOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-tvOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegration-tvOSTests/Pods-ExposureStreamrootIntegration-tvOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E57B3EF37DD14684490F09A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-iOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-iOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExposureStreamrootIntegrationTests/Pods-ExposureStreamrootIntegrationTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		226AAF7CA3FB15AC5F69D563 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29ACECA5539D7870FDF34D31 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationTvOSApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B8F733BB3E2CC75EEFBA4FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegrationTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		341FB2E3FF65DCCE2C6524B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42F795A65C1AFDED991E6EE0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-iOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-iOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/iOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationApp/Pods-StreamrootIntegrationApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A3647B4A97B8E834A89C992 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExposureStreamrootIntegration-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77420F4F9499F56088418220 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StreamrootIntegrationApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3EC15EA55A96180742CF197 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCDWebServer-tvOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/Sentry-tvOS/Sentry.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream-tvOS/Starscream.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework",
-				"${PODS_ROOT}/StreamrootSDK/Carthage/Build/tvOS/StreamrootSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamrootSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/StreamrootSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamrootIntegrationTvOSApp/Pods-StreamrootIntegrationTvOSApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7683FC7C214AA8990005149E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FD02214FBC910005149E /* AppDelegate.swift in Sources */,
+				761A2A9B2166454B005EF98C /* AppDelegate.swift in Sources */,
 				7683FCF7214FBC600005149E /* Program+Extensions.swift in Sources */,
 				7683FCF5214FBC600005149E /* Asset+Extensions.swift in Sources */,
 				7683FCFF214FBC600005149E /* LoginViewController.swift in Sources */,
@@ -1217,12 +962,15 @@
 /* Begin XCBuildConfiguration section */
 		7683FC90214AA89B0005149E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F55090A52C6B194A72E6EC /* Pods-StreamrootIntegrationApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1238,12 +986,15 @@
 		};
 		7683FC91214AA89B0005149E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97CDE65AED154CD17B98C75 /* Pods-StreamrootIntegrationApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1259,13 +1010,16 @@
 		};
 		7683FCC9214F9CBB0005149E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C71A8D04B679B5474C1EEA /* Pods-StreamrootIntegrationTvOSApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationTvOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1282,13 +1036,16 @@
 		};
 		7683FCCA214F9CBB0005149E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A91666A165876A43C1F43B01 /* Pods-StreamrootIntegrationTvOSApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCUPRVKEC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StreamrootIntegrationTvOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1425,7 +1182,6 @@
 		};
 		76AFFEE92146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C509EB9DE37796280E8FF976 /* Pods-ExposureStreamrootIntegration-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1459,7 +1215,6 @@
 		};
 		76AFFEEA2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA76AC16380FFD9904FB088 /* Pods-ExposureStreamrootIntegration-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1492,7 +1247,6 @@
 		};
 		76AFFEEC2146844D00402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF53D2C9A4642950640ABEA8 /* Pods-ExposureStreamrootIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1516,7 +1270,6 @@
 		};
 		76AFFEED2146844D00402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE431737E8B05AC021FCDCCE /* Pods-ExposureStreamrootIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1540,7 +1293,6 @@
 		};
 		76AFFF3D2147B3B100402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 257E6EF52376E9D23D6E2883 /* Pods-ExposureStreamrootIntegration-tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1574,7 +1326,6 @@
 		};
 		76AFFF3E2147B3B100402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33E308929D5F3EFF6FBD454C /* Pods-ExposureStreamrootIntegration-tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1607,7 +1358,6 @@
 		};
 		76AFFF3F2147B3B100402BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D16FA79B6CB73EC58971A4 /* Pods-ExposureStreamrootIntegration-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1633,7 +1383,6 @@
 		};
 		76AFFF402147B3B100402BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0730DA2100673F68BB731C3 /* Pods-ExposureStreamrootIntegration-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,11 +7,11 @@ Version `3.3.0`
 * Absolute URLs in playlists are not supported. The SDK will fallback to the default CDN delivery.
 * The framework doesn’t support bitcode currently.
 
-* `Reported`: 2.0.92
+* `Reported`: 2.0.93
 
 
-### `EMP-11751`
-Full Support for dependency management using `Carthage` is not available due to a bug in the `GCDWebServer` build definitions.
+### `EMP-11863`
+*Carthage*, using `xcodebuild` and `Xcode10`s new build system, fails to resolve and link the correct dependencies when `ExposurePlayback` is included as a dependency.
 
-* `Reported`: 2.0.92
-* `Workaround`: Use Cocoapods for managing `StreamroodSDK` dependencies and `Carthage` for *RedBee Media* related modules.
+* `Reported`: 2.0.93
+* `Workaround`: Use the old (legacy) build system. See `File -> Workspace Settings... -> Build Settings` in Xcode.
