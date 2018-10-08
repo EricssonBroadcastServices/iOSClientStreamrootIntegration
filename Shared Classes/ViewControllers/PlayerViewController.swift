@@ -86,10 +86,10 @@ class PlayerViewController: UIViewController {
     
     fileprivate func togglePlayPauseButton(paused: Bool) {
         if !paused {
-            playPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: UIControlState.normal)
+            playPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: UIControl.State.normal)
         }
         else {
-            playPauseButton.setImage(#imageLiteral(resourceName: "play"), for: UIControlState.normal)
+            playPauseButton.setImage(#imageLiteral(resourceName: "play"), for: UIControl.State.normal)
         }
     }
     

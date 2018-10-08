@@ -13,8 +13,8 @@ extension UIViewController {
         #if DEBUG
         print(message)
         #endif
-        let alertController = UIAlertController(title: title, message: message, preferredStyle:UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: handler))
+        let alertController = UIAlertController(title: title, message: message, preferredStyle:UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: handler))
         self.present(alertController, animated: true, completion: nil)
     }
 }

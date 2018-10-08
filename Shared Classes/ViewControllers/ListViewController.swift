@@ -38,7 +38,7 @@ class ListViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
     }
     
     override func viewWillAppear(_ animated: Bool) {

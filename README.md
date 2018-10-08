@@ -21,15 +21,14 @@
 
 * `iOS` 9.0+
 * `tvOS` 10.2+
-* `Swift` 4.0+
-* `Xcode` 9.0+
+* `Swift` 4.2+
+* `Xcode` 10.0+
 
 * Framework dependencies
     - [`Player`](https://github.com/EricssonBroadcastServices/iOSClientPlayer)
     - [`Exposure`](https://github.com/EricssonBroadcastServices/iOSClientExposure)
     - [`ExposurePlayback`](https://github.com/EricssonBroadcastServices/iOSClientExposure)
-    - [`StreamrootSDK`](https://support.streamroot.io/hc/en-us/sections/115000729153-iOS-and-tvOS) version: [`3.3.0`](https://sdk.streamroot.io/ios/3.3.0/StreamrootSDK.framework.zip)
-    - [`GCDWebServer`](https://github.com/swisspol/GCDWebServer)
+    - [`StreamrootSDK`](https://support.streamroot.io/hc/en-us/sections/115000729153-iOS-and-tvOS) version: [`3.4.0`](https://sdk.streamroot.io/ios/3.4.0/StreamrootSDK.framework.zip)
     - [`Sentry`](https://github.com/getsentry/sentry-cocoa)
     - [`Starscream`](https://github.com/daltoniam/Starscream)
     - Exact versions described in [Cartfile](https://github.com/EricssonBroadcastServices/iOSClientExposureStreamrootIntegration/blob/master/Cartfile)
