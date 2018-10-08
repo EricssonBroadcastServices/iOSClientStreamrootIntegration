@@ -1,6 +1,6 @@
 binary "https://sdk.streamroot.io/ios/StreamrootSDK.json" "3.4"
 github "EricssonBroadcastServices/iOSClientExposure" "f1f08ec246f8261a1bf1ed7af7b530b52137b022"
-github "EricssonBroadcastServices/iOSClientExposurePlayback" "8faa0d29c8acb2a66bf81bac62cbd7f4c99c88d8"
+github "EricssonBroadcastServices/iOSClientExposurePlayback" "75d210f7ce0b5013a01453bbc89553bd7b25ce4a"
 github "EricssonBroadcastServices/iOSClientPlayer" "fe75f0ec429c6c312eb3b428ad0c3c415d64deea"
 github "Quick/Nimble" "v7.3.1"
 github "Quick/Quick" "v1.3.2"

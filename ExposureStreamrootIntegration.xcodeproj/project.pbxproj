@@ -60,14 +60,28 @@
 		761A2A9921664479005EF98C /* StreamrootSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; };
 		761A2A9A21664479005EF98C /* StreamrootSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		761A2A9B2166454B005EF98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FD01214FBC910005149E /* AppDelegate.swift */; };
+		761A2AA6216BEB72005EF98C /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A4C21663D97005EF98C /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AA7216BEB72005EF98C /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A4B21663D97005EF98C /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AA8216BEB72005EF98C /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3D21663D82005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AA9216BEB72005EF98C /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3B21663D82005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAA216BEB72005EF98C /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3C21663D82005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAB216BEB72005EF98C /* Sentry.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3921663D82005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAC216BEB72005EF98C /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3A21663D82005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAD216BEB72005EF98C /* StreamrootSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A3E21663D82005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAE216BEB90005EF98C /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A6D21663EAC005EF98C /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AAF216BEB90005EF98C /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A6E21663EAD005EF98C /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB0216BEB90005EF98C /* Exposure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A5021663E62005EF98C /* Exposure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB1216BEB90005EF98C /* ExposurePlayback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A5221663E62005EF98C /* ExposurePlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB2216BEB90005EF98C /* Player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A5121663E62005EF98C /* Player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB3216BEB90005EF98C /* Sentry.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A5321663E62005EF98C /* Sentry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB4216BEB90005EF98C /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A5421663E62005EF98C /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		761A2AB5216BEB90005EF98C /* StreamrootSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761A2A4F21663E62005EF98C /* StreamrootSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */; };
 		7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
 		7683FC5F214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */; };
 		7683FC61214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
 		7683FC62214A45E40005149E /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC60214A45E40005149E /* Dictionary+Extensions.swift */; };
-		7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
-		7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */; };
 		7683FC88214AA8990005149E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC86214AA8990005149E /* Main.storyboard */; };
 		7683FC8A214AA89B0005149E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC89214AA89B0005149E /* Assets.xcassets */; };
 		7683FC8D214AA89B0005149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683FC8B214AA89B0005149E /* LaunchScreen.storyboard */; };
@@ -192,6 +206,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				761A2AA6216BEB72005EF98C /* Nimble.framework in CopyFiles */,
+				761A2AA7216BEB72005EF98C /* Quick.framework in CopyFiles */,
+				761A2AA8216BEB72005EF98C /* Exposure.framework in CopyFiles */,
+				761A2AA9216BEB72005EF98C /* ExposurePlayback.framework in CopyFiles */,
+				761A2AAA216BEB72005EF98C /* Player.framework in CopyFiles */,
+				761A2AAB216BEB72005EF98C /* Sentry.framework in CopyFiles */,
+				761A2AAC216BEB72005EF98C /* Starscream.framework in CopyFiles */,
+				761A2AAD216BEB72005EF98C /* StreamrootSDK.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +223,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				761A2AAE216BEB90005EF98C /* Nimble.framework in CopyFiles */,
+				761A2AAF216BEB90005EF98C /* Quick.framework in CopyFiles */,
+				761A2AB0216BEB90005EF98C /* Exposure.framework in CopyFiles */,
+				761A2AB1216BEB90005EF98C /* ExposurePlayback.framework in CopyFiles */,
+				761A2AB2216BEB90005EF98C /* Player.framework in CopyFiles */,
+				761A2AB3216BEB90005EF98C /* Sentry.framework in CopyFiles */,
+				761A2AB4216BEB90005EF98C /* Starscream.framework in CopyFiles */,
+				761A2AB5216BEB90005EF98C /* StreamrootSDK.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +258,6 @@
 		7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootPlayableSpec.swift; sourceTree = "<group>"; };
 		7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEntitlement+Extensions.swift"; sourceTree = "<group>"; };
 		7683FC60214A45E40005149E /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
-		7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamrootAssetSourceSpec.swift; sourceTree = "<group>"; };
 		7683FC80214AA8990005149E /* StreamrootIntegrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamrootIntegrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683FC87214AA8990005149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7683FC89214AA89B0005149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -493,7 +522,6 @@
 				76AFFEE22146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift */,
 				76AFFEE42146844D00402BA2 /* Info.plist */,
 				7683FC5A214A40350005149E /* StreamrootPlayableSpec.swift */,
-				7683FC63214A801C0005149E /* StreamrootAssetSourceSpec.swift */,
 				7683FC5D214A457F0005149E /* PlaybackEntitlement+Extensions.swift */,
 				7683FC60214A45E40005149E /* Dictionary+Extensions.swift */,
 			);
@@ -871,7 +899,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC64214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */,
 				7683FC5E214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */,
 				7683FC5B214A40350005149E /* StreamrootPlayableSpec.swift in Sources */,
 				76AFFEE32146844D00402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */,
@@ -899,7 +926,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683FC65214A801C0005149E /* StreamrootAssetSourceSpec.swift in Sources */,
 				7683FC5F214A457F0005149E /* PlaybackEntitlement+Extensions.swift in Sources */,
 				7683FC5C214A40350005149E /* StreamrootPlayableSpec.swift in Sources */,
 				76AFFF882148141600402BA2 /* ExposureStreamrootIntegrationTests.swift in Sources */,
@@ -1194,7 +1220,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Pods/StreamrootSDK/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1227,7 +1252,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Pods/StreamrootSDK/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ExposureStreamrootIntegration/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1263,7 +1287,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1286,7 +1310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1375,7 +1399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
@@ -1400,7 +1424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emp.ExposureStreamrootIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};

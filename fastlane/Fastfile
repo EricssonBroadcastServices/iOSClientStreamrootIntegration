@@ -88,6 +88,7 @@ platform :ios do
     desc "Runs all the tests"
     lane :run_unit_tests do
         UI.success("== iOS Unit tests ==")
+        Action.sh("swift --version")
         scan(
              workspace: ENV["UNIT_TEST_WORKSPACE"],
              scheme: ENV["IOS_UNIT_TEST_SCHEME"]
@@ -144,6 +145,7 @@ platform :ios do
     
     desc "Checkout latest dependencies as declared in Cartfile.resolved"
     private_lane :update_graph do
+        Action.sh("swift --version")
         carthage(
                  command: "update",
                  platform: "iOS,tvOS",
