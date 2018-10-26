@@ -175,51 +175,38 @@ platform :ios do
     end
     
     private_lane :build_and_sign do |options|
-        cert
-        
-        profile = "com.emp.StreamrootIntegrationApp AppStore"
+        match(type: "appstore",
+              platform, options[:os],
+              git_url: ENV["CERTIFICATE_URL"])
+              
+        plistPath = "StreamrootIntegrationApp/Info.plist"
         if options[:os] == "ios"
-            profile = "com.emp.StreamrootIntegrationApp AppStore"
+            plistPath = "StreamrootIntegrationApp/Info.plist"
             elsif options[:os] == "tvos"
-            profile = "RedBee P2P tvOS Mac mini"
+            plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
         end
         
-        UI.message("profile #{profile}")
+        UI.message("plist #{plistPath}")
         
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
+        set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
         
-        sigh(
-             platform: options[:os],
-             app_identifier: "com.emp.StreamrootIntegrationApp"
-             )
+        scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
+        if options[:os] == "ios"
+            scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
+            elsif options[:os] == "tvos"
+            scheme = ENV["TVOS_TESTFLIGHT_SCHEME"]
+        end
         
-         plistPath = "StreamrootIntegrationApp/Info.plist"
-         if options[:os] == "ios"
-             plistPath = "StreamrootIntegrationApp/Info.plist"
-         elsif options[:os] == "tvos"
-             plistPath = "StreamrootIntegrationTvOSApp/Info.plist"
-         end
-         
-         UI.message("plist #{plistPath}")
-         
-         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
-         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
-         set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
-         set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
-         
-         scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
-         if options[:os] == "ios"
-             scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
-         elsif options[:os] == "tvos"
-             scheme = ENV["TVOS_TESTFLIGHT_SCHEME"]
-         end
-         
-         UI.message("scheme #{scheme}")
-         
-         gym(
-             export_method: "app-store",
-             workspace: ENV["CLIENT_WORKSPACE"],
-             scheme: scheme
-             )
+        UI.message("scheme #{scheme}")
+        
+        gym(
+            export_method: "app-store",
+            workspace: ENV["CLIENT_WORKSPACE"],
+            scheme: scheme
+            )
     end
     
     private_lane :bump_build_number do
