@@ -127,7 +127,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func createRequest(listContent: ListContent, environment: Environment, sessionToken: SessionToken) {
         let viewController = UIStoryboard(name: AppDelegate.mainStoryboard, bundle: nil).instantiateViewController(withIdentifier: "List") as! ListViewController
         let query = "&pageSize=50&onlyPublished=true"
-        switch listContent.type {
+        switch listContent.listType {
         case "TV_CHANNEL":
             viewController.navigationItem.title = "Channels"
             viewController.onDidSelect = { [weak self, weak viewController] in
@@ -174,7 +174,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let program = $0 as? Program {
                 self?.play(program: program, presenter: epgViewController, environment: environment, sessionToken: sessionToken)
             }
-            else if let noEpg = $0 as? ListItem, noEpg.type == "NO_EPG_TV_CHANNEL" {
+            else if let noEpg = $0 as? ListItem, noEpg.listType == "NO_EPG_TV_CHANNEL" {
                 self?.play(channel: channel, presenter: epgViewController, environment: environment, sessionToken: sessionToken)
             }
         }

@@ -10,18 +10,18 @@ import UIKit
 
 protocol ListContent {
     var title: String { get }
-    var type: String { get }
+    var listType: String { get }
     var desc: String? { get }
 }
 
 struct ListItem: ListContent {
     let title: String
-    let type: String
+    let listType: String
     let desc: String?
     
     init(title: String, type: String, desc: String? = nil) {
         self.title = title
-        self.type = type
+        self.listType = type
         self.desc = desc
     }
 }

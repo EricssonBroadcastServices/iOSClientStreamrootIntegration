@@ -10,8 +10,8 @@ import Foundation
 import Exposure
 
 extension Asset: ListContent {
-    var type: String {
-        return self.type
+    var listType: String {
+        return self.listType
     }
     
     var title: String {
