@@ -11,7 +11,7 @@ import Exposure
 
 extension Asset: ListContent {
     var listType: String {
-        return self.listType
+        return self.type ?? "UNKNOWN"
     }
     
     var title: String {
