@@ -176,7 +176,7 @@ platform :ios do
     
     private_lane :build_and_sign do |options|
         match(type: "appstore",
-              platform, options[:os],
+              platform: options[:os],
               git_url: ENV["CERTIFICATE_URL"])
               
         plistPath = "StreamrootIntegrationApp/Info.plist"
