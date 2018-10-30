@@ -150,7 +150,7 @@ platform :ios do
                  command: "update",
                  platform: "iOS,tvOS",
                  use_submodules: false,
-                 use_ssh: true,
+                 use_ssh: false,
                  use_binaries: false,
                  no_build: false
                  )
@@ -189,10 +189,10 @@ platform :ios do
         
         UI.message("plist #{plistPath}")
         
-        #set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
-        #set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
-        #set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
-        #set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BaseUrl", value: ENV["EXPOSURE_BASE_URL"])
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "Customer", value: ENV["EXPOSURE_CUSTOMER"])
+        set_info_plist_value(path: plistPath, key: "Exposure", subkey: "BusinessUnit", value: ENV["EXPOSURE_BUSINESS_UNIT"])
+        set_info_plist_value(path: plistPath, key: "Streamroot", subkey: "Key", value: ENV["STREAMROOT_KEY"])
         
         scheme = ENV["IOS_TESTFLIGHT_SCHEME"]
         if options[:os] == "ios"
