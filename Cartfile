@@ -1,4 +1,4 @@
-github "EricssonBroadcastServices/iOSClientExposurePlayback" "master"
+github "EricssonBroadcastServices/iOSClientExposurePlayback" ~> 2.0.93
 binary "https://sdk.streamroot.io/ios/StreamrootSDK.json" ~> 3.4.0
 github "daltoniam/Starscream" "3.0.5"
 github "getsentry/sentry-cocoa" "4.1.0"
